@@ -1,0 +1,584 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #efefef;
+}
+.znys_left {
+  float: left;
+  width: 3.7rem;
+  height: 6rem;
+  position: relative;
+  top: 1rem;
+  left: 3.3rem;
+}
+.znys_left .znys_one {
+  height: 1.3rem;
+  width: 3.7rem;
+  background-color: #3697d0;
+}
+.znys_left .znys_one img {
+  float: left;
+  width: 0.8rem;
+  position: relative;
+  top: 0.23rem;
+  left: 0.24rem;
+}
+.znys_left .znys_one .znys_one_2 {
+  float: right;
+  background-color: brown;
+  height: 100%;
+  width: 2.6rem;
+}
+.znys_left .znys_one .znys_one_2 .znys_one_2-1 {
+  background-color: #3697d0;
+  width: 100%;
+  height: 0.7rem;
+}
+.znys_left .znys_one .znys_one_2 .znys_one_2-1 span {
+  color: azure;
+  font-size: 0.3rem;
+  position: relative;
+  top: 0.3rem;
+  font-weight: bold;
+}
+.znys_left .znys_one .znys_one_2 .znys_one_2-2 {
+  background-color: #3697d0;
+  width: 100%;
+  height: 0.6rem;
+}
+.znys_left .znys_one .znys_one_2 .znys_one_2-2 span {
+  color: azure;
+  font-size: 0.2rem;
+  font-weight: bold;
+}
+.znys_left .znys_two {
+  background-color: #ffffff;
+  height: 0.8rem;
+  width: 100%;
+}
+.znys_left .znys_two .znys_two {
+  height: 0.77rem;
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-bottom-style: dashed;
+  border-width: 0.025rem;
+  border-color: #000000;
+}
+.znys_left .znys_two .znys_two .znys_two_1 {
+  float: left;
+  font-size: 0.24rem;
+  line-height: 0.9rem;
+  font-weight: bold;
+  color: #3697d0;
+}
+.znys_left .znys_two .znys_two .znys_two_2 {
+  float: right;
+}
+.znys_left .znys_two .znys_two .znys_two_2 img {
+  height: 0.4rem;
+  position: relative;
+  top: 0.265rem;
+}
+.znys_left .znys_three {
+  background-color: #ffffff;
+  height: 0.8rem;
+  width: 100%;
+}
+.znys_left .znys_three .znys_three {
+  height: 0.77rem;
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-bottom-style: dashed;
+  border-width: 0.025rem;
+  border-color: #000000;
+}
+.znys_left .znys_three .znys_three .znys_three_1 {
+  float: left;
+  font-size: 0.24rem;
+  line-height: 0.9rem;
+  font-weight: bold;
+  color: #000000;
+  position: relative;
+  right: 0.97rem;
+}
+.znys_left .znys_three .znys_three .znys_three_2 {
+  float: right;
+}
+.znys_left .znys_three .znys_three .znys_three_2 img {
+  height: 0.4rem;
+  position: relative;
+  top: 0.265rem;
+}
+.znys_left .znys_four {
+  background-color: #ffffff;
+  height: 0.8rem;
+  width: 100%;
+}
+.znys_left .znys_four .znys_four {
+  height: 0.77rem;
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-width: 0.025rem;
+  border-color: #000000;
+}
+.znys_left .znys_four .znys_four .znys_four_1 {
+  float: left;
+  font-size: 0.24rem;
+  line-height: 0.9rem;
+  font-weight: bold;
+  color: #000000;
+  position: relative;
+  top: -0.1rem;
+}
+.znys_left .znys_four .znys_four .znys_four_2 {
+  float: right;
+}
+.znys_left .znys_four .znys_four .znys_four_2 img {
+  height: 0.4rem;
+  position: relative;
+  top: 0.265rem;
+}
+.znys_left .znys_five {
+  width: 100%;
+}
+.znys_left .znys_five img {
+  width: 100%;
+}
+.znys_right {
+  float: right;
+  background-color: #ffffff;
+  height: 15rem;
+  width: 13.06rem;
+  position: relative;
+  top: 1rem;
+  right: 3.52rem;
+}
+.znys_right .znys_right_1 {
+  position: relative;
+  top: 0.3rem;
+  height: 0.7rem;
+  width: calc(100%-1.3rem);
+  margin-left: 0.65rem;
+  margin-right: 0.65rem;
+  border-left-color: #3697d0;
+  border-left-style: solid;
+  border-width: 0.1rem;
+  font-size: 0.3rem;
+  font-weight: bolder;
+  line-height: 0.7rem;
+  border-bottom-style: solid;
+  border-bottom-width: 0.02rem;
+  color: #595959;
+}
+.znys_right .box-1 {
+  height: 1.5rem;
+  width: 100%;
+}
+.znys_right .box-1 span {
+  float: left;
+  position: relative;
+  top: 0.8rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-1 .box-1-1 {
+  float: right;
+  position: relative;
+  top: 0.799rem;
+  left: 0.3rem;
+  height: 0.38rem;
+  width: 10rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-2 {
+  height: 1rem;
+  width: 100%;
+}
+.znys_right .box-2 span {
+  float: left;
+  position: relative;
+  top: 0.3rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-2 .box-2-1 {
+  float: right;
+  position: relative;
+  top: 0.18rem;
+  left: 0.3rem;
+  height: 0.38rem;
+  width: 10rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-2 .box-2-1 #renkou {
+  height: 0.6rem;
+  width: 5rem;
+  outline: none;
+  border-style: solid;
+  border-width: 0.02rem;
+  font-size: 0.3rem;
+}
+.znys_right .box-2 .box-2-1 span {
+  float: right;
+  position: relative;
+  right: 4.4rem;
+  top: 0.14rem;
+}
+.znys_right .box-3 {
+  height: 1rem;
+  width: 100%;
+}
+.znys_right .box-3 span {
+  float: left;
+  position: relative;
+  top: 0.3rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-3 .box-3-1 {
+  float: right;
+  position: relative;
+  top: -0.18rem;
+  left: 0.3rem;
+  height: 0.38rem;
+  width: 10rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-3 .box-3-1 #shouru {
+  height: 0.6rem;
+  width: 5rem;
+  font-size: 0.3rem;
+  outline: none;
+  border-style: solid;
+  border-width: 0.02rem;
+}
+.znys_right .box-3 .box-3-1 span {
+  float: right;
+  position: relative;
+  right: 4.4rem;
+  top: 0.14rem;
+}
+.znys_right .box-4 {
+  height: 1rem;
+  width: 100%;
+}
+.znys_right .box-4 span {
+  float: left;
+  position: relative;
+  top: 0.3rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-4 .box-4-1 {
+  float: right;
+  position: relative;
+  top: -0.18rem;
+  left: 0.3rem;
+  height: 0.38rem;
+  width: 10rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-4 .box-4-1 #laodongrenkou {
+  height: 0.6rem;
+  width: 5rem;
+  border-style: solid;
+  border-width: 0.02rem;
+  outline: none;
+  font-size: 0.3rem;
+}
+.znys_right .box-4 .box-4-1 span {
+  float: right;
+  position: relative;
+  right: 4.4rem;
+  top: 0.14rem;
+}
+.znys_right .box-5 {
+  height: 1rem;
+  width: 100%;
+}
+.znys_right .box-5 span {
+  float: left;
+  position: relative;
+  top: 0.3rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-5 .box-5-1 {
+  float: right;
+  position: relative;
+  top: -0.02rem;
+  left: 0.3rem;
+  height: 0.38rem;
+  width: 10rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-5 .box-5-1 #laodongrenkou {
+  height: 0.6rem;
+  width: 5rem;
+  border-style: solid;
+  border-width: 0.02rem;
+}
+.znys_right .box-5 .box-5-1 span {
+  float: right;
+  position: relative;
+  right: 4.4rem;
+  top: 0.14rem;
+}
+.znys_right .box-6 {
+  height: 1rem;
+  width: 100%;
+}
+.znys_right .box-6 span {
+  float: left;
+  position: relative;
+  top: 0.3rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-6 .box-6-1 {
+  float: right;
+  position: relative;
+  top: 0.29rem;
+  left: 0.3rem;
+  height: 0.38rem;
+  width: 10rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-6 .box-6-1 #laodongrenkou {
+  height: 0.6rem;
+  width: 5rem;
+  border-style: solid;
+  border-width: 0.02rem;
+}
+.znys_right .box-6 .box-6-1 span {
+  float: right;
+  position: relative;
+  right: 4.4rem;
+  top: 0.14rem;
+}
+.znys_right .box-7 {
+  height: 1rem;
+  width: 100%;
+}
+.znys_right .box-7 span {
+  float: left;
+  position: relative;
+  top: 0.3rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-7 .box-7-1 {
+  float: right;
+  position: relative;
+  top: 0.29rem;
+  left: 0.3rem;
+  height: 0.38rem;
+  width: 10rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-7 .box-7-1 #laodongrenkou {
+  height: 0.6rem;
+  width: 5rem;
+  border-style: solid;
+  border-width: 0.02rem;
+}
+.znys_right .box-7 .box-7-1 span {
+  float: right;
+  position: relative;
+  right: 4.4rem;
+  top: 0.14rem;
+}
+.znys_right .box-8 {
+  height: 1rem;
+  width: 100%;
+}
+.znys_right .box-8 span {
+  float: left;
+  position: relative;
+  top: 0.3rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-8 .box-8-1 {
+  float: right;
+  position: relative;
+  top: -0.03rem;
+  left: 0.3rem;
+  height: 0.38rem;
+  width: 10rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-8 .box-8-1 #laodongrenkou {
+  height: 0.6rem;
+  width: 5rem;
+  border-style: solid;
+  border-width: 0.02rem;
+}
+.znys_right .box-8 .box-8-1 span {
+  float: right;
+  position: relative;
+  right: 4.4rem;
+  top: 0.14rem;
+}
+.znys_right .box-9 {
+  height: 1rem;
+  width: 100%;
+}
+.znys_right .box-9 span {
+  float: left;
+  position: relative;
+  top: 0.3rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-9 .box-9-1 {
+  float: right;
+  position: relative;
+  top: 0.3rem;
+  left: 0.3rem;
+  height: 0.38rem;
+  width: 10rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-9 .box-9-1 #laodongrenkou {
+  height: 0.6rem;
+  width: 5rem;
+  border-style: solid;
+  border-width: 0.02rem;
+}
+.znys_right .box-9 .box-9-1 span {
+  float: right;
+  position: relative;
+  right: 4.4rem;
+  top: 0.14rem;
+}
+.znys_right .box-10 {
+  height: 1rem;
+  width: 100%;
+}
+.znys_right .box-10 span {
+  float: left;
+  position: relative;
+  top: 0.3rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-10 .box-10-1 {
+  float: right;
+  position: relative;
+  top: -0.03rem;
+  left: 0.3rem;
+  height: 0.38rem;
+  width: 10rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-10 .box-10-1 #laodongrenkou {
+  height: 0.6rem;
+  width: 5rem;
+  border-style: solid;
+  border-width: 0.02rem;
+}
+.znys_right .box-10 .box-10-1 span {
+  float: right;
+  position: relative;
+  right: 4.4rem;
+  top: 0.14rem;
+}
+.znys_right .box-11 {
+  height: 1rem;
+  width: 100%;
+}
+.znys_right .box-11 span {
+  float: left;
+  position: relative;
+  top: 0.3rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-11 .box-11-1 {
+  float: right;
+  position: relative;
+  top: -0.03rem;
+  left: 0.3rem;
+  height: 0.38rem;
+  width: 10rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-11 .box-11-1 #laodongrenkou {
+  height: 0.6rem;
+  width: 5rem;
+  border-style: solid;
+  border-width: 0.02rem;
+}
+.znys_right .box-11 .box-11-1 span {
+  float: right;
+  position: relative;
+  right: 4.4rem;
+  top: 0.14rem;
+}
+.znys_right .box-12 {
+  height: 1rem;
+  width: 100%;
+}
+.znys_right .box-12 span {
+  float: left;
+  position: relative;
+  top: 0.3rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-12 .box-12-1 {
+  float: right;
+  position: relative;
+  top: 0.3rem;
+  left: 0.3rem;
+  height: 0.38rem;
+  width: 10rem;
+  font-size: 0.26rem;
+  margin-left: 0.65rem;
+}
+.znys_right .box-12 .box-12-1 #laodongrenkou {
+  height: 0.6rem;
+  width: 5rem;
+  border-style: solid;
+  border-width: 0.02rem;
+}
+.znys_right .box-12 .box-12-1 span {
+  float: right;
+  position: relative;
+  right: 4.4rem;
+  top: 0.14rem;
+}
+.znys_right .box-13 {
+  height: 1rem;
+  width: 100%;
+}
+.znys_right .box-13 button {
+  position: relative;
+  top: 0.2rem;
+  left: 3.54rem;
+  height: 0.7rem;
+  width: 6rem;
+  line-height: 0.7rem;
+  font-size: 0.3rem;
+  background-color: #3697d0;
+  border-radius: 0.08rem;
+  border-style: none;
+  color: #ffffff;
+}

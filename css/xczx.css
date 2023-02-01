@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.most_big {
+  width: 100%;
+  height: 40rem;
+  overflow: hidden;
+}
+.bg-img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 21.2rem;
+  z-index: -1;
+}
+.bg-img img {
+  position: relative;
+  width: 24rem;
+  height: 11.8rem;
+  z-index: 0;
+}
+.up {
+  float: left;
+  background-color: #4e7fa9;
+  width: 100%;
+  height: 14rem;
+  z-index: 2;
+}
+.up img {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+.up-1 {
+  float: left;
+  width: 100%;
+  height: 14rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: -14rem;
+  z-index: 3;
+}
+.up-1 .zi-1 {
+  width: 60%;
+  color: #ffffff;
+  font-size: 0.3rem;
+  font-family: monospace;
+  position: relative;
+  top: 4.4rem;
+  left: 3rem;
+}
+.up-1 .zi-2 {
+  width: 60%;
+  color: aliceblue;
+  font-size: 0.8rem;
+  font-weight: normal;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  top: 4.8rem;
+  left: 2.8rem;
+}
+.up-1 .heng {
+  background-color: aliceblue;
+  height: 0.01rem;
+  width: 4.7rem;
+  position: relative;
+  top: 4.9rem;
+  left: 2.9rem;
+}
+.up-1 .zi-3 {
+  width: 60%;
+  color: aliceblue;
+  font-size: 0.3rem;
+  font-weight: normal;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  top: 5.1rem;
+  left: 2.9rem;
+}
+.up-1 .zi-4 {
+  width: 60%;
+  color: aliceblue;
+  font-size: 0.25rem;
+  font-weight: normal;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  top: 5.3rem;
+  left: 2.9rem;
+}
+.up-1 .zi-4 a {
+  color: aliceblue;
+}
+.dongtai_2 {
+  position: relative;
+  background-color: #ffffff;
+  top: 14rem;
+  width: 100%;
+  height: 9rem;
+}
+.dongtai_2 span {
+  float: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 0.7rem;
+  color: rgba(111, 111, 111, 0.3);
+  position: relative;
+  top: -26rem;
+  left: 2.6rem;
+}
+.dongtai_2 #sp-1 {
+  color: #000;
+  font-size: 0.6rem;
+  float: left;
+  top: -25.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  left: -0.85rem;
+}
+.dongtai_2 #sp-2 {
+  width: 50%;
+  font-size: 0.28rem;
+  color: #000;
+  top: -27.2rem;
+}
+.dongtai_3 {
+  width: 100%;
+  height: 10rem;
+  position: relative;
+  top: 14rem;
+}
+.dongtai_3 span {
+  position: relative;
+  top: -17rem;
+}
+.dongtai_3 #dongtai_3_1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+  position: relative;
+  left: -6.7rem;
+}
+.dongtai_3 #dongtai_3_2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 0.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  position: relative;
+  left: -8.4rem;
+  top: -16.8rem;
+}
+.dongtai_3 #dongtai_3_3 {
+  font-size: 0.5rem;
+  left: -9.03rem;
+  top: -16rem;
+  color: #9370db;
+}
+.dongtai_3 p {
+  position: relative;
+  font-size: 0.25rem;
+  left: -8.2rem;
+  top: -16rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.dongtai_3 .box1 {
+  z-index: 2;
+  width: 4rem;
+  height: 4rem;
+  background-color: #ffffff;
+  position: relative;
+  top: -14.3rem;
+  left: 2.5rem;
+}
+.dongtai_3 .box1 .zi-1 {
+  color: #9370db;
+  font-size: 0.42rem;
+  position: relative;
+  top: -5rem;
+  left: 0.56rem;
+  font-weight: bold;
+}
+.dongtai_3 .box1 .zi-2 {
+  color: #000000;
+  font-size: 0.2rem;
+  position: relative;
+  top: -4.5rem;
+  left: 0.56rem;
+}
+.dongtai_3 .box2 {
+  z-index: 2;
+  width: 4rem;
+  height: 4rem;
+  background-color: #9370db;
+  position: relative;
+  top: -18.3rem;
+  left: 6.5rem;
+}
+.dongtai_3 .box2 .zi-1 {
+  color: #ffffff;
+  font-size: 0.42rem;
+  position: relative;
+  top: -1rem;
+  left: 0.56rem;
+  font-weight: bold;
+}
+.dongtai_3 .box2 .zi-2 {
+  color: #000000;
+  font-size: 0.2rem;
+  position: relative;
+  top: -0.5rem;
+  left: 0.56rem;
+}
+.dongtai_3 .box2 .zi-2 a {
+  color: #ffffff;
+}
+.dongtai_4 {
+  width: 100%;
+  height: 4rem;
+  position: relative;
+  top: 14rem;
+}
+.dongtai_4 .left_up {
+  background-color: #1c1c1c;
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  left: 2.495rem;
+  color: #ffffff;
+}
+.dongtai_4 .left_up span {
+  font-size: 0.4rem;
+  position: relative;
+  top: -14.5rem;
+  left: 1.06rem;
+}
+.dongtai_4 .left_zj {
+  background-color: #1c1c1c;
+  width: 14rem;
+  height: 4rem;
+  position: relative;
+  top: -4rem;
+  left: 6.495rem;
+}
+.dongtai_4 .left_zj img {
+  height: 100%;
+  width: 4rem;
+  position: relative;
+  top: -12.18rem;
+}
+.dongtai_4 .left_zj .dazi {
+  font-size: 0.33rem;
+  color: #ffffff;
+  position: relative;
+  top: -15.7rem;
+  left: 5.7rem;
+}
+.dongtai_4 .left_zj .xiaozi {
+  height: 5rem;
+  width: 9rem;
+  font-size: 0.25rem;
+  color: #ffffff;
+  position: relative;
+  top: -15.4rem;
+  left: 4.5rem;
+}
+.dongtai_4 a {
+  text-decoration: none;
+}

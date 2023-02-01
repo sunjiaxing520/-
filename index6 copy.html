@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index6 copy.css">
+    <link rel="stylesheet" href="css/commen.css">
+    <script src="JS/Jquery.min.js"></script>
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        $(function () {
+            $('#lbb li').mouseover(function () {
+                var index = $(this).index();
+                console.log(index);
+                $('#ttpp div').eq(index).show();
+                $('#ttpp div').eq(index).siblings().hide();
+            })
+        })
+
+        $(function () {
+            $('.lb li').mouseenter(function () {
+                $(this).stop().animate({
+                    height: 50
+                }).find('.small').stop().fadeOut().siblings('.big').stop().fadeIn();
+                $(this).siblings('li').stop().animate({
+                    height: 30
+                }).find('.small').stop().fadeIn().siblings('.big').stop().fadeOut();
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div class="lb" id="lbb">
+        <ul>
+            <li><a>
+                    <div class="small">秋葵</div>
+                    <div class="big">秋葵 <br>具有利咽通淋下乳调经之功效。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">香菜</div>
+                    <div class="big">香菜<br>芫荽，别名胡荽、香菜、香荽。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">小麦</div>
+                    <div class="big">小麦 <br>三大谷物之一，几乎全作食用。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">水稻</div>
+                    <div class="big">水稻 <br>稻，是禾本科一年生水生草本。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">玉米</div>
+                    <div class="big">玉米 <br>玉蜀黍是禾本科，俗称玉米。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">土豆</div>
+                    <div class="big">土豆 <br>学名是马铃薯，个别地区叫洋芋。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">木耳</div>
+                    <div class="big">木耳 <br>我国重要的食用菌有广泛的自然分布。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">白菜</div>
+                    <div class="big">白菜 <br>白菜原分布于中国华北，中国各地广泛栽培。</div>
+                </a></li>
+        </ul>
+
+    </div>
+    <div class="ttp" id="ttpp">
+        <div class="zhu"><a><img src="images/秋葵.png" alt=""></a></div>
+        <div class="zhu"><a><img src="images/香菜.webp" alt=""></a></div>
+        <div class="zhu"><a><img src="images/小麦.jpg" alt=""></a></div>
+        <div class="zhu"><a><img src="images/水稻.jpg" alt=""></a></div>
+        <div class="zhu"><a><img src="images/玉米.jpg" alt=""></a></div>
+        <div class="zhu"><a><img src="images/土豆.jpg" alt=""></a></div>
+        <div class="zhu"><a><img src="images/木耳.jpg" alt=""></a></div>
+        <div class="zhu"><a><img src="images/白菜.jpg" alt=""></a></div>
+    </div>
+    <!-- <div class="bj">
+    </div>
+    <div class="bjr">
+    </div> -->
+    <div class="hd">
+        <div>
+            <a>
+                <i class="bx bx-folder-open"></i>
+                <span>科学种植</span>
+            </a>
+        </div>
+        <div class="sp"><a href="index7.html">视频</a></div>
+        <div><a>图片</a></div>
+        <div><a>文献</a></div>
+    </div>
+    <div class="gd">
+
+    </div>
+    <div class="xia">
+        <div class="xia-one">
+            <ul>
+                <li></li>
+                <li><a href="https://baike.baidu.com/item/%E9%9F%AD%E8%8F%9C/478849?fr=aladdin">韭菜</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%A4%A7%E8%91%B1/918571?fr=aladdin">大葱</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E6%B4%8B%E8%91%B1/6409">洋葱</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%A4%A7%E8%92%9C/159179">大蒜</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E9%87%91%E9%92%88%E8%8F%87">金针菜</a>
+                </li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/pic/%E7%99%BD%E8%8F%9C/14842/1/f9dcd100baa1cd11c7ef440cb412c8fcc3ce2d44?fr=lemma&ct=single#aid=1&pic=f9dcd100baa1cd11c7ef440cb412c8fcc3ce2d44">白菜</a>
+                </li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a href="https://baike.baidu.com/item/%E9%9F%AD%E8%8F%9C/478849?fr=aladdin"><img src="images/韭菜.jpg"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%A4%A7%E8%91%B1/918571?fr=aladdin"><img src="images/大葱.jpg"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E6%B4%8B%E8%91%B1/6409"><img src="images/洋葱.jpg" alt=""></a>
+            </div>
+            <div><a href="https://baike.baidu.com/item/%E5%A4%A7%E8%92%9C/159179"><img src="images/ds.jpg" alt=""></a>
+            </div>
+            <div><a href="https://baike.baidu.com/item/%E9%87%91%E9%92%88%E8%8F%87"><img src="images/金针菇.jpg"
+                        alt=""></a></div>
+            <div><a
+                    href="https://baike.baidu.com/pic/%E7%99%BD%E8%8F%9C/14842/1/f9dcd100baa1cd11c7ef440cb412c8fcc3ce2d44?fr=lemma&ct=single#aid=1&pic=f9dcd100baa1cd11c7ef440cb412c8fcc3ce2d44"><img
+                        src="images/白菜.jpg" alt=""></a></div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>韭菜</p>
+                    <span>属百合科多年生草本植物，具特殊强烈气味。</span>
+                </li>
+                <li>
+                    <p>大葱</p>
+                    <span>叶圆筒形而中空，它的叶鞘茎部包含成假茎，若行培土软化。</span>
+                </li>
+                <li>
+                    <p>洋葱</p>
+                    <span>中国的洋葱产地主要有福建、山东、甘肃、内蒙古、新疆等地。</span>
+                </li>
+                <li>
+                    <p>大蒜</p>
+                    <span>南北各地均有分布。具有解毒消肿，杀虫，止痢之功效。</span>
+                </li>
+                <li>
+                    <p>金针菇</p>
+                    <span>金针菇别名冬菇、朴蕈、绒毛柄金钱菌等。</span>
+                </li>
+                <li>
+                    <p>白菜</p>
+                    <span>白菜比较耐寒，喜好冷凉气候，不适于栽植在排水不良的粘土地上。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li></li>
+                <li><a href="https://baike.baidu.com/item/%E8%90%9D%E5%8D%9C/25582?fr=aladdin">萝卜</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/pic/%E9%BB%84%E7%93%9C/792541/1/77094b36acaf2eddff326d3e871001e938019321?fr=lemma&ct=single#aid=1&pic=77094b36acaf2eddff326d3e871001e938019321">黄瓜</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%8D%97%E7%93%9C/18337?fr=aladdin">南瓜</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E7%95%AA%E8%8C%84/69104?fr=aladdin">番茄</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E8%8C%84/12639968?fromtitle=%E8%8C%84%E5%AD%90&fromid=35717&fr=aladdin">茄子</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%BE%A3%E6%A4%92/48496">辣椒</a>
+                </li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a href="https://baike.baidu.com/item/%E8%90%9D%E5%8D%9C/25582?fr=aladdin"><img src="images/萝卜.jpg"
+                        alt=""></a></div>
+            <div><a
+                    href="https://baike.baidu.com/pic/%E9%BB%84%E7%93%9C/792541/1/77094b36acaf2eddff326d3e871001e938019321?fr=lemma&ct=single#aid=1&pic=77094b36acaf2eddff326d3e871001e938019321"><img
+                        src="images/黄瓜.jpg" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%8D%97%E7%93%9C/18337?fr=aladdin"><img src="images/南瓜.jpg"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E7%95%AA%E8%8C%84/69104?fr=aladdin"><img src="images/番茄.png"
+                        alt=""></a>
+            </div>
+            <div><a
+                    href="https://baike.baidu.com/item/%E8%8C%84/12639968?fromtitle=%E8%8C%84%E5%AD%90&fromid=35717&fr=aladdin"><img
+                        src="images/茄子.jpg" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%BE%A3%E6%A4%92/48496"><img src="images/辣椒.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>萝卜</p>
+                    <span>总状花序顶生及腋生；花白色或粉红色，花期4-5月，果期5-6月。</span>
+                </li>
+                <li>
+                    <p>黄瓜</p>
+                    <span>种子小，狭卵形，白色，无边缘，两端近急尖。花果期夏季。</span>
+                </li>
+                <li>
+                    <p>南瓜</p>
+                    <span>原产墨西哥到中美洲一带，世界各地普遍栽培。明代传入中国。</span>
+                </li>
+                <li>
+                    <p>番茄</p>
+                    <span>番茄原产南美洲，中国南北方广泛栽培。番茄的果实营养丰富，具特殊风味。</span>
+                </li>
+                <li>
+                    <p>茄子</p>
+                    <span>能孕花单生，花柄长约1-1.8厘米，毛被较密。果的形状大小变异极大。</span>
+                </li>
+                <li>
+                    <p>辣椒</p>
+                    <span>盛产于南阳盆地，并成为全国五大优良黄牛品种之一。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li></li>
+                <li><a href="https://baike.baidu.com/item/%E6%B2%B9%E9%BA%A6%E8%8F%9C">油麦菜</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E7%94%9F%E8%8F%9C/40578?fr=aladdin">生菜</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E8%95%B9%E8%8F%9C/2771669?fr=aladdin&fromtitle=%E7%A9%BA%E5%BF%83%E8%8F%9C&fromid=2480">空心菜</a>
+                </li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E8%8A%AB%E8%8D%BD/573992?fromtitle=%E9%A6%99%E8%8F%9C&fromid=421947&fr=aladdin">香菜</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%91%B1/577741?fr=aladdin">葱</a>
+                </li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E7%94%98%E8%93%9D/631584?fromtitle=%E5%8D%B7%E5%BF%83%E8%8F%9C&fromid=2073007&fr=aladdin">卷心菜</a>
+                </li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a href="https://baike.baidu.com/item/%E6%B2%B9%E9%BA%A6%E8%8F%9C"><img src="images/油麦菜.jpg"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E7%94%9F%E8%8F%9C/40578?fr=aladdin"><img src="images/生菜.jpg"
+                        alt=""></a></div>
+            <div><a
+                    href="https://baike.baidu.com/item/%E8%95%B9%E8%8F%9C/2771669?fr=aladdin&fromtitle=%E7%A9%BA%E5%BF%83%E8%8F%9C&fromid=2480"><img
+                        src="images/空心菜.jpg" alt=""></a></div>
+            <div><a
+                    href="https://baike.baidu.com/item/%E8%8A%AB%E8%8D%BD/573992?fromtitle=%E9%A6%99%E8%8F%9C&fromid=421947&fr=aladdin"><img
+                        src="images/香菜.png" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%91%B1/577741?fr=aladdin"><img src="images/葱.jpg" alt=""></a>
+            </div>
+            <div><a
+                    href="https://baike.baidu.com/item/%E7%94%98%E8%93%9D/631584?fromtitle=%E5%8D%B7%E5%BF%83%E8%8F%9C&fromid=2073007&fr=aladdin"><img
+                        src="images/卷心菜.jpg" alt=""></a></div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>油麦菜</p>
+                    <span>别名油荬、香水生菜。菊科莴苣属，原种产于地中海沿岸。</span>
+                </li>
+                <li>
+                    <p>生菜</p>
+                    <span>生菜原产欧洲地中海沿岸，由野生种驯化而来。古希腊人、罗马人最早食用。</span>
+                </li>
+                <li>
+                    <p>空心菜</p>
+                    <span>该种原产东亚地区，现已作为一种蔬菜广泛栽培，或有时逸为野生状态。</span>
+                </li>
+                <li>
+                    <p>香菜</p>
+                    <span>原产地为地中海沿岸及中亚地区，河南及中国大部地区都有种植。</span>
+                </li>
+                <li>
+                    <p>葱</p>
+                    <span>分布于中国各地，广泛栽培，中国以外也有栽培，葱作蔬菜食用
+                    </span>
+                </li>
+                <li>
+                    <p>卷心菜</p>
+                    <span>是十字花科、芸薹属植物。二年生草本，被粉霜。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li></li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E7%95%AA%E8%8C%84/69104?fromtitle=%E8%A5%BF%E7%BA%A2%E6%9F%BF&fromid=216015">西红柿</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E7%8C%B4%E5%A4%B4%E8%8F%87/418495?fr=aladdin">猴头菇</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%B2%A9%E7%BE%8A/803032?fr=aladdin">生姜</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E8%96%AF%E8%93%A3/4044401?fromtitle=%E5%B1%B1%E8%8D%AF&fromid=414450">山药</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%97%95/1385">藕</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%8F%A0%E8%8F%9C/575262">菠菜</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a
+                    href="https://baike.baidu.com/item/%E7%95%AA%E8%8C%84/69104?fromtitle=%E8%A5%BF%E7%BA%A2%E6%9F%BF&fromid=216015"><img
+                        src="images/西红柿.jpg" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E7%8C%B4%E5%A4%B4%E8%8F%87/418495?fr=aladdin"><img
+                        src="images/猴头菇.jpg" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E7%94%9F%E5%A7%9C/582671"><img src="images/生姜.jpg" alt=""></a>
+            </div>
+            <div><a
+                    href="https://baike.baidu.com/item/%E8%96%AF%E8%93%A3/4044401?fromtitle=%E5%B1%B1%E8%8D%AF&fromid=414450"><img
+                        src="images/山药.jpg" alt=""></img></div>
+            <div><a href="https://baike.baidu.com/item/%E8%97%95/1385"><img src="images/藕.jpg" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%8F%A0%E8%8F%9C/575262"><img src="images/菠菜.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>西红柿</p>
+                    <span>番茄原产南美洲，中国南北方广泛栽培。番茄的果实营养丰富，具特殊风味。</span>
+                </li>
+                <li>
+                    <p>猴头菇</p>
+                    <span>猴头菇是齿菌科、猴头菇属真菌。子实体中等、较大或大型。</span>
+                </li>
+                <li>
+                    <p>生姜</p>
+                    <span>别名有姜根、百辣云、勾装指、因地辛、炎凉小子、鲜生姜、蜜炙姜。</span>
+                </li>
+                <li>
+                    <p>山药</p>
+                    <span>公绵羊多有螺旋状大角具有威慑性，母绵羊无角或角细小。</span>
+                </li>
+                <li>
+                    <p>藕</p>
+                    <span>藕，又称莲藕，属莲科植物根茎，可餐食也可药用。在我国的大部分省份均有种植。</span>
+                </li>
+                <li>
+                    <p>菠菜</p>
+                    <span>菠菜原产伊朗，中国普遍栽培，为极常见的蔬菜之一。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li></li>
+                <li><a href="https://baike.baidu.com/item/%E5%86%AC%E7%93%9C/422112">冬瓜</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E4%B8%9D%E7%93%9C/573802">丝瓜</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%8B%A6%E7%93%9C/67518">苦瓜</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E9%BB%84%E7%93%9C/792541">黄瓜</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%A5%BF%E8%91%AB%E8%8A%A6/647786">西葫芦</a>
+                </li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E8%8C%84/12639968?fromtitle=%E8%8C%84%E5%AD%90&fromid=35717">茄子</a>
+                </li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a href="https://baike.baidu.com/item/%E5%86%AC%E7%93%9C/422112"><img src="images/冬瓜.jpg" alt=""></a>
+            </div>
+            <div><a href="https://baike.baidu.com/item/%E4%B8%9D%E7%93%9C/573802"><img src="images/丝瓜.jpg" alt=""></a>
+            </div>
+            <div><a href="https://baike.baidu.com/item/%E8%8B%A6%E7%93%9C/67518"><img src="images/苦瓜.jpg" alt=""></a>
+            </div>
+            <div><a href="https://baike.baidu.com/item/%E9%BB%84%E7%93%9C/792541"><img src="images/黄瓜.jpg" alt=""></a>
+            </div>
+            <div><a href="https://baike.baidu.com/item/%E8%A5%BF%E8%91%AB%E8%8A%A6/647786"><img src="images/西葫芦.jpg"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%8C%84/12639968?fromtitle=%E8%8C%84%E5%AD%90&fromid=35717"><img
+                        src="images/茄子.jpg" alt=""></a></div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>冬瓜</p>
+                    <span>瓜主要分布于亚洲其他热带、亚热带地区，中国各地地区均有栽培。</span>
+                </li>
+                <li>
+                    <p>丝瓜</p>
+                    <span>中国南、北各地普遍栽培。也广泛栽培于世界温带、热带地区。</span>
+                </li>
+                <li>
+                    <p>苦瓜</p>
+                    <span>苦瓜原产东印度，广泛栽培于世界热带到温带地区。中国南北均普遍栽培。</span>
+                </li>
+                <li>
+                    <p>黄瓜</p>
+                    <span>黄瓜为中国各地夏季主要菜蔬之一。茎藤药用，能消炎、祛痰、镇痉。</span>
+                </li>
+                <li>
+                    <p>西葫芦</p>
+                    <span>西葫芦是葫芦科、南瓜属一年生蔓生草本；茎有棱沟。</span>
+                </li>
+                <li>
+                    <p>茄子</p>
+                    <span>果可供蔬食。根、茎、叶入药，叶也可以作麻醉剂。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li></li>
+                <li><a href="https://baike.baidu.com/item/%E9%A9%AC%E9%93%83%E8%96%AF/416928?fr=aladdin">土豆</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E7%8E%89%E8%9C%80%E9%BB%8D/60156796?fromtitle=%E7%8E%89%E7%B1%B3&fromid=18401&fr=aladdin">玉米</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%B1%87%E8%B1%86/822451">豇豆</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E6%89%81%E8%B1%86/821171">扁豆</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%B1%8C%E8%B1%86/822636?fr=aladdin">豌豆</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%9A%95%E8%B1%86/1462">蚕豆</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a href="https://baike.baidu.com/item/%E9%A9%AC%E9%93%83%E8%96%AF/416928?fr=aladdin"><img
+                        src="images/土豆.jpg" alt=""></a></div>
+            <div><a
+                    href="https://baike.baidu.com/item/%E7%8E%89%E8%9C%80%E9%BB%8D/60156796?fromtitle=%E7%8E%89%E7%B1%B3&fromid=18401&fr=aladdin"><img
+                        src="images/玉米.jpg" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%B1%87%E8%B1%86/822451"><img src="images/豇豆.jpg" alt=""></a>
+            </div>
+            <div><a href="https://baike.baidu.com/item/%E6%89%81%E8%B1%86/821171"><img src="images/扁豆.jpg" alt=""></a>
+            </div>
+            <div><a href="https://baike.baidu.com/item/%E8%B1%8C%E8%B1%86/822636?fr=aladdin"><img src="images/豌豆.jpg"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%9A%95%E8%B1%86/1462"><img src="images/蚕豆.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>土豆</p>
+                    <span>一年生草本植物，块茎可供食用，是全球第四大重要的粮食作物。</span>
+                </li>
+                <li>
+                    <p>玉米</p>
+                    <span>是禾本科、玉蜀黍属植物，俗称玉米。一年生高大草本。</span>
+                </li>
+                <li>
+                    <p>豇豆</p>
+                    <span>豇豆起源于热带非洲，中国广泛栽培。豇豆是旱地作植物。</span>
+                </li>
+                <li>
+                    <p>扁豆</p>
+                    <span>豇豆起源于热带非洲，中国广泛栽培。豇豆是旱地作植物。</span>
+                </li>
+                <li>
+                    <p>豌豆</p>
+                    <span>原产于数千年前的亚洲西部、地中海地区，是世界重要的栽培作物之一。 </span>
+                </li>
+                <li>
+                    <p>蚕豆</p>
+                    <span>据宋《太平御览》记载，蚕豆由西汉张骞自西域引入中原地区 。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li></li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E6%AC%A7%E6%B4%B2%E6%B2%B9%E8%8F%9C/8463544?fromtitle=%E6%B2%B9%E8%8F%9C&fromid=20458&fr=aladdin">油菜</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%9B%9B%E5%AD%A3%E8%B1%86">四季豆</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E8%B1%8C%E8%B1%86/822636?fromtitle=%E8%8D%B7%E5%85%B0%E8%B1%86&fromid=8256035">荷兰豆</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E6%AF%9B%E8%B1%86/65885">毛豆</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E9%87%91%E9%92%88%E8%8F%87">金针菇</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%B9%B3%E8%8F%87/2098911?fr=aladdin">平菇</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a
+                    href="https://baike.baidu.com/item/%E6%AC%A7%E6%B4%B2%E6%B2%B9%E8%8F%9C/8463544?fromtitle=%E6%B2%B9%E8%8F%9C&fromid=20458&fr=aladdin"><img
+                        src="images/油菜.jpg" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%9B%9B%E5%AD%A3%E8%B1%86"><img src="images/四季豆.jpg"
+                        alt=""></a></div>
+            <div><a
+                    href="https://baike.baidu.com/item/%E8%B1%8C%E8%B1%86/822636?fromtitle=%E8%8D%B7%E5%85%B0%E8%B1%86&fromid=8256035"><img
+                        src="images/荷兰豆.png" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E6%AF%9B%E8%B1%86/65885"><img src="images/毛豆.png" alt=""></a>
+            </div>
+            <div><a href="https://baike.baidu.com/item/%E9%87%91%E9%92%88%E8%8F%87"><img src="images/金针菇.jpg"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%B9%B3%E8%8F%87/2098911?fr=aladdin"><img src="images/平菇.png"
+                        alt=""></a></div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>油菜</p>
+                    <span>欧洲油菜原产于欧洲，在世界各地广泛种植。欧洲油菜在中国各地广泛种植。</span>
+                </li>
+                <li>
+                    <p>四季豆</p>
+                    <span>四季豆又叫菜豆，芸扁豆，四月豆等，为一年生草本植物。</span>
+                </li>
+                <li>
+                    <p>荷兰豆</p>
+                    <span>原产于数千年前的亚洲西部、地中海地区，是世界重要的栽培作物之一。</span>
+                </li>
+                <li>
+                    <p>毛豆</p>
+                    <span>大豆的含义包括黄豆和毛豆。学名是大豆俗称毛豆。大豆古称菽。</span>
+                </li>
+                <li>
+                    <p>金针菇</p>
+                    <span>是我国江淮地区良种，属蛋肉兼用型地方优良品种。</span>
+                </li>
+                <li>
+                    <p>平菇</p>
+                    <span>菌盖表面颜色受光线的影响而变化，光强色深，光弱色浅。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li></li>
+                <li><a href="https://baike.baidu.com/item/%E9%A6%99%E8%8F%87/20169405?fr=aladdin">香菇</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E6%9D%8F%E9%B2%8D%E8%8F%87">杏鲍菇</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E6%9C%A8%E8%80%B3/712258?fr=aladdin">木耳</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E8%8B%8B/5818014?fromtitle=%E8%8B%8B%E8%8F%9C&fromid=225102">苋菜</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E9%9B%81%E9%B9%85/5016405?fr=aladdin">蒿菜</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%8E%B4%E7%AC%8B/1156895">莴笋</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a href="https://baike.baidu.com/item/%E9%A6%99%E8%8F%87/20169405?fr=aladdin"><img src="images/香菇.png"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E6%9D%8F%E9%B2%8D%E8%8F%87"><img src="images/杏鲍菇.jpg"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E6%9C%A8%E8%80%B3/712258?fr=aladdin"><img src="images/木耳.jpg"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%8B%8B/5818014?fromtitle=%E8%8B%8B%E8%8F%9C&fromid=225102"><img
+                        src="images/苋菜.jpg" alt=""></a></div>
+            <div><a
+                    href="https://baike.baidu.com/item/%E8%8C%BC%E8%92%BF/288692?fromtitle=%E8%92%BF%E8%8F%9C&fromid=18589390"><img
+                        src="images/蒿菜.jpg" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%8E%B4%E7%AC%8B/1156895"><img src="images/莴笋.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>香菇</p>
+                    <span>四川白鹅是优秀的地方保护品种，位列我国20个鹅品种保护之首。</span>
+                </li>
+                <li>
+                    <p>杏鲍菇</p>
+                    <span>杏鲍菇是集食用、药用、食疗于一体的珍稀食用菌新品种。</span>
+                </li>
+                <li>
+                    <p>木耳</p>
+                    <span>木耳，又叫云耳、桑耳，是我国重要的食用菌，有广泛的自然分布和人工栽培。</span>
+                </li>
+                <li>
+                    <p>苋菜</p>
+                    <span>分布于亚洲南部、中亚、日本等地。有清热，利窍。治赤白痢疾，二便不通等功效。</span>
+                </li>
+                <li>
+                    <p>蒿菜</p>
+                    <span>叶互生，长形羽状分裂，花黄色或白色，与野菊花很像。</span>
+                </li>
+                <li>
+                    <p>莴笋</p>
+                    <span>主要食用肉质嫩茎，可生食、凉拌、炒食、干制或腌渍，嫩叶也可食用。</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+<script src="./javascript/flexible.js"></script>
+
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index1-1.css">
+    <link rel="stylesheet" href="css/commen.css">
+</head>
+
+<body>
+    <div class="shang">
+        <div class="logo">
+            <div class="tp">
+                <img src="images/公司管理.png" alt="">
+                <p>MIS</p>
+            </div>
+            <div class="bt">
+                <p>
+                    信息管理系统
+                </p>
+                <p> Information System</p>
+                <p>辽宁科技学院 曙光大数据学院</p>
+            </div>
+        </div>
+
+        <div class="search">
+            <div class="stp">
+                <p><img src="images/搜索(1).png" alt="">
+                </p>
+            </div>
+            <input type="search" name="" id="" placeholder="输入关键词">
+            <button>搜索</button>
+        </div>
+        <div class="rs">
+            <ul>
+                <li><img src="images/火苗.png">
+                </li>
+                <li>
+                    <p>热搜:</p>
+                </li>
+                <li>
+                    <p>政策</p>
+                </li>
+                <li>
+                    <p>技术</p>
+                </li>
+                <li>
+                    <p>教育</p>
+                </li>
+                <li>
+                    <p>扶贫</p>
+                </li>
+            </ul>
+        </div>
+        <div class="tq">
+            <ul>
+                <li class="arrow-icon">
+                    <!-- <p><a href="#">辽宁 </a></p> -->辽宁
+                </li>
+                <li><img src="images/太阳.png"></li>
+                <li><img src="images/月亮.png" alt=""></li>
+                <li>
+                    <p>6℃~20℃</p>
+                </li>
+
+            </ul>
+        </div>
+        <div class="tq2">
+            <ul>
+                <li>天气</li>
+                <li>|</li>
+                <li>空气</li>
+                <li>|</li>
+                <li>水质</li>
+                <li>|</li>
+                <li>雨水情</li>
+            </ul>
+        </div>
+    </div>
+    <div class="hll">
+        <ul>
+            <li  onclick="into_sy();" ><a href="#">首页</a></li>
+            <li  onclick="into_yl();" id="sy_1" onmouseover="index_1_zcwj_in()" onmouseout="index_1_zcwj_out()"><a href="#">政策文件</a></li>
+            <li  onclick="into_yz();" id="sy_2" onmouseover="index_1_jsxx_in()" onmouseout="index_1_jsxx_out()"><a href="#">技术学习</a></li>
+            <!-- <li id="sy_3" onmouseover="index_1_gbxx_in()" onmouseout="index_1_gbxx_out()"><a href="#">干部信息</a></li> -->
+            <li  onclick="into_hswh();" id="sy_4" onmouseover="index_1_jyfk_in()" onmouseout="index_1_jyfk_out()"><a href="#">红色文化</a></li>
+            <li id="sy_5" onclick="into_jyzy();" onmouseover="index_1_jyzy_in()" onmouseout="index_1_jyzy_out()"><a href="#">教育资源</a></li>
+            <li id="sy_6" onclick="into_gjjz();" onmouseover="index_1_gjjz_in()" onmouseout="index_1_gjjz_out()"><a href="#">国家减灾</a></li>
+            <li  onclick="into_ys();" id="sy_7" onmouseover="index_1_jdlk_in()" onmouseout="index_1_jdlk_out()"><a href="#">建档立卡</a></li>
+        </ul>
+    </div>
+    <div class="pmd">
+        <div class="text">一根扁担挑两筐， 三秋雁阵四五行，六大顺七八项,九重阳十月忙。农民可亲,丰收喜悦!
+        </div>
+    </div>
+    <div  onmouseover="index_1_zcwj_in()" onmouseout="index_1_zcwj_out()"  id="zcwj_id" class="box-1-1down_zcwj" style="display: none;">
+        <ul>
+            <li onclick="into_yl();">医疗方面</li>
+            <li onclick="into_td();">土地方面</li>
+            <li onclick="into_xc();">乡村振兴</li>
+        </ul>
+    </div>
+    <div  onmouseover="index_1_jsxx_in()" onmouseout="index_1_jsxx_out()"  id="jsxx_id" class="box-1-1down_jsxx" style="display: none;">
+        <ul>
+            <li onclick="into_yz();">科学养殖</li>
+            <li onclick="into_zz();">科学种植</li>
+            <li onclick="into_wx();">文献</li>
+        </ul>
+    </div>
+    <div  onmouseover="index_1_gjjz_in()" onmouseout="index_1_gjjz_out()"  id="gjjz_id" class="box-1-1down_gjjz" style="display: none;">
+        <!-- <ul>
+            <li>大型农机装置</li>
+            <li>小型&nbsp;轻型农机装置</li>
+            <li>个人闲置物品</li>
+        </ul> -->
+    </div>
+    <div  onmouseover="index_1_jyzy_in()" onmouseout="index_1_jyzy_out()" id="jyzy_id" class="box-1-1down_jyzy" style="display: none;">
+        <ul>
+            <li onclick="into_xx();">小学</li>
+            <li onclick="into_cz();">初中</li>
+            <li onclick="into_gz();">高中</li>
+        </ul>
+    </div>
+    <div  onmouseover="index_1_jdlk_in()" onmouseout="index_1_jdlk_out()"  id="jdlk_id" class="box-1-1down_jdlk" style="display: none;">
+        <ul>
+            <li onclick="into_ys();">智能预审</li>
+            <!-- <li onclick="into_zn();">申报指南</li> -->
+            <li onclick="into_cx();">建档立卡户查询</li>
+        </ul>
+    </div>
+    <div class="ifra" id="ifr">
+        <iframe src="./shouye.html" id="ifram" frameborder="0" scrolling='no' ></iframe>
+        <!-- scrolling='no' -->
+    </div>
+</body>
+<script src="./javascript/flexible.js"></script>
+<script>
+// ****************************方法*********************************
+    var index_1_zcwj = document.getElementById('zcwj_id');
+    var index_1_jsxx = document.getElementById('jsxx_id');
+    var index_1_gjjz = document.getElementById('gjjz_id');
+    var index_1_jyzy = document.getElementById('jyzy_id');
+    var index_1_jdlk = document.getElementById('jdlk_id');
+
+    var sy_1 = document.getElementById('sy_1');
+    var sy_2 = document.getElementById('sy_2');
+    // var sy_3 = document.getElementById('sy_3');
+    var sy_4 = document.getElementById('sy_4');
+    var sy_5 = document.getElementById('sy_5');
+    var sy_6 = document.getElementById('sy_6');
+    var sy_7 = document.getElementById('sy_7');
+    // var index_1_all = [index_1_zcwj,index_1_jsxx,index_1_gjjz,index_1_jyzy,index_1_jdlk]
+    function index_1_zcwj_in(){
+        index_1_zcwj.style.display='block';
+        index_1_jsxx.style.display='none';
+        index_1_gjjz.style.display='none';
+        index_1_jyzy.style.display='none';
+        index_1_jdlk.style.display='none';
+
+        sy_1.style.backgroundColor='rgb(54, 151, 208)';
+        sy_2.style.backgroundColor='rgb(16, 131, 199)';
+        // sy_3.style.backgroundColor='rgb(16, 131, 199)';
+        sy_4.style.backgroundColor='rgb(16, 131, 199)';
+        sy_5.style.backgroundColor='rgb(16, 131, 199)';
+        sy_6.style.backgroundColor='rgb(16, 131, 199)';
+        sy_7.style.backgroundColor='rgb(16, 131, 199)';
+
+    }
+    function index_1_jsxx_in(){
+        index_1_zcwj.style.display='none';
+        index_1_jsxx.style.display='block';
+        index_1_gjjz.style.display='none';
+        index_1_jyzy.style.display='none';
+        index_1_jdlk.style.display='none';
+         
+        sy_1.style.backgroundColor='rgb(16, 131, 199)';
+        sy_2.style.backgroundColor='rgb(54, 151, 208)';
+        sy_3.style.backgroundColor='rgb(16, 131, 199)';
+        sy_4.style.backgroundColor='rgb(16, 131, 199)';
+        sy_5.style.backgroundColor='rgb(16, 131, 199)';
+        sy_6.style.backgroundColor='rgb(16, 131, 199)';
+        sy_7.style.backgroundColor='rgb(16, 131, 199)';
+    }
+    function index_1_gjjz_in(){
+        index_1_zcwj.style.display='none';
+        index_1_jsxx.style.display='none';
+        index_1_jyzy.style.display='none';
+        index_1_jdlk.style.display='none';
+
+        sy_1.style.backgroundColor='rgb(16, 131, 199)';
+        sy_2.style.backgroundColor='rgb(16, 131, 199)';
+        // sy_3.style.backgroundColor='rgb(16, 131, 199)';
+        sy_4.style.backgroundColor='rgb(16, 131, 199)';
+        sy_5.style.backgroundColor='rgb(16, 131, 199)';
+        sy_6.style.backgroundColor='rgb(54, 151, 208)';
+        sy_7.style.backgroundColor='rgb(16, 131, 199)';
+    }
+    function index_1_jyzy_in(){
+        index_1_zcwj.style.display='none';
+        index_1_jsxx.style.display='none';
+        index_1_gjjz.style.display='none';
+        index_1_jyzy.style.display='none';
+        index_1_jdlk.style.display='none';
+
+        sy_1.style.backgroundColor='rgb(16, 131, 199)';
+        sy_2.style.backgroundColor='rgb(16, 131, 199)';
+        // sy_3.style.backgroundColor='rgb(16, 131, 199)';
+        sy_4.style.backgroundColor='rgb(16, 131, 199)';
+        sy_5.style.backgroundColor='rgb(54, 151, 208)';
+        sy_6.style.backgroundColor='rgb(16, 131, 199)';
+        sy_7.style.backgroundColor='rgb(16, 131, 199)';
+    }
+    function index_1_jdlk_in(){
+        index_1_zcwj.style.display='none';
+        index_1_jsxx.style.display='none';
+        index_1_gjjz.style.display='none';
+        index_1_jyzy.style.display='none';
+        index_1_jdlk.style.display='block';
+
+        sy_1.style.backgroundColor='rgb(16, 131, 199)';
+        sy_2.style.backgroundColor='rgb(16, 131, 199)';
+        // sy_3.style.backgroundColor='rgb(16, 131, 199)';
+        sy_4.style.backgroundColor='rgb(16, 131, 199)';
+        sy_5.style.backgroundColor='rgb(16, 131, 199)';
+        sy_6.style.backgroundColor='rgb(16, 131, 199)';
+        sy_7.style.backgroundColor='rgb(54, 151, 208)';
+    }
+    function index_1_gbxx_in(){
+        index_1_zcwj.style.display='none';
+        index_1_jsxx.style.display='none';
+        index_1_gjjz.style.display='none';
+        index_1_jyzy.style.display='none';
+        index_1_jdlk.style.display='none';
+
+        sy_1.style.backgroundColor='rgb(16, 131, 199)';
+        sy_2.style.backgroundColor='rgb(16, 131, 199)';
+        sy_3.style.backgroundColor='rgb(54, 151, 208)';
+        sy_4.style.backgroundColor='rgb(16, 131, 199)';
+        sy_5.style.backgroundColor='rgb(16, 131, 199)';
+        sy_6.style.backgroundColor='rgb(16, 131, 199)';
+        sy_7.style.backgroundColor='rgb(16, 131, 199)';
+    }
+    function index_1_jyfk_in(){
+        index_1_zcwj.style.display='none';
+        index_1_jsxx.style.display='none';
+        index_1_gjjz.style.display='none';
+        index_1_jyzy.style.display='none';
+        index_1_jdlk.style.display='none';
+
+        sy_1.style.backgroundColor='rgb(16, 131, 199)';
+        sy_2.style.backgroundColor='rgb(16, 131, 199)';
+        // sy_3.style.backgroundColor='rgb(16, 131, 199)';
+        sy_4.style.backgroundColor='rgb(54, 151, 208)';
+        sy_5.style.backgroundColor='rgb(16, 131, 199)';
+        sy_6.style.backgroundColor='rgb(16, 131, 199)';
+        sy_7.style.backgroundColor='rgb(16, 131, 199)';
+    }
+    function index_1_zcwj_out(){
+        index_1_zcwj.style.display='none';
+
+        sy_1.style.backgroundColor='rgb(16, 131, 199)';
+    }
+    function index_1_jsxx_out(){
+        index_1_jsxx.style.display='none';
+
+        sy_2.style.backgroundColor='rgb(16, 131, 199)';
+    }
+    function index_1_jyzy_out(){
+        index_1_jyzy.style.display='none';
+
+        sy_5.style.backgroundColor='rgb(16, 131, 199)';
+    }
+    function index_1_gjjz_out(){
+        index_1_gjjz.style.display='none';
+
+        sy_6.style.backgroundColor='rgb(16, 131, 199)';
+    }
+    function index_1_jdlk_out(){
+        index_1_jdlk.style.display='none';
+
+        sy_7.style.backgroundColor='rgb(16, 131, 199)';
+    }
+    function index_1_gbxx_out(){
+        sy_3.style.backgroundColor='rgb(16, 131, 199)';
+    }
+    function index_1_jyfk_out(){
+        sy_4.style.backgroundColor='rgb(16, 131, 199)';
+    }
+    // ************************点击*******************************
+    var ifr = document.getElementById('ifram');
+    function into_sy(){
+        ifr.src='./shouye.html';
+        ifr.style.height='20rem';
+    }
+    function into_yl(){
+        ifr.src='./medical.html';
+        ifr.style.height='12rem';
+    }
+    function into_td(){
+        ifr.src='./land.html';
+        ifr.style.height='100rem';
+    }
+    function into_xc(){
+        ifr.src='./xczx.html';
+        ifr.style.height='40rem';
+    }
+    function into_yz(){
+        ifr.src='./index6.html';
+        ifr.style.height='56rem';
+    }
+    function into_jyzy(){
+        ifr.src='./indexlyl.html';
+        ifr.style.height='66.5rem';
+    }
+    function into_ys(){
+        ifr.src='./znys.html';
+        ifr.style.height='16rem';
+    }
+    function into_cx(){
+        ifr.src='./jdlkcx.html';
+        ifr.style.height='9rem';
+    }
+    function into_zz(){
+        ifr.src='./index6 copy.html';
+        ifr.style.height='56rem';
+    }
+    function into_gjjz(){
+        window.open('http://www.ndrcc.org.cn/','_blank');
+    }
+    function into_hswh(){
+        window.open('./hs1.html','_blank');
+    }
+    function into_wx(){
+        window.open('./index8.html','_blank');
+    }
+    
+</script>
+</html>

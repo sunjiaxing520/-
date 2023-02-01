@@ -1,0 +1,199 @@
+.ttp {
+    position: relative;
+    width: 18.75rem;
+    height: 9.3rem;
+    z-index: -1;
+    /* overflow: hidden; */
+}
+
+.zhu {
+    position: absolute;
+    left: -0.1875rem;
+    top: 0rem;
+    width: 18.75rem;
+    height: 6.25rem;
+}
+
+.bj {
+    position: absolute;
+    left: 0rem;
+    top: 0;
+    width: 8.75rem;
+    height: 9.3rem;
+    background: linear-gradient(to right, rgb(19, 18, 18), rgba(0, 0, 0, 0));
+}
+
+.bjr {
+    position: absolute;
+    left: 15.247rem;
+    top: 0;
+    width: 8.75rem;
+    height: 9.3rem;
+    background: linear-gradient(to left, rgba(19, 18, 18), rgba(0, 0, 0, 0));
+
+}
+
+.lb {
+    position: absolute;
+    left: 15rem;
+    top: 1.25rem;
+    color: #fff;
+    z-index: 100;
+}
+
+.lb li {
+    margin-top: .25rem;
+}
+
+.hd {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 2.08rem;
+    top: 0;
+    width: 16.25rem;
+    height: 1.1rem;
+    font-size: .32rem;
+    color: #fff;
+    background: -webkit-linear-gradient(rgb(0, 0, 0, .3), rgba(173, 33, 33, 0));
+    z-index: 100;
+}
+
+.hd div {
+    margin-left: .625rem;
+}
+
+.hd div:nth-child(2) {
+    margin-left: .875rem;
+}
+
+.hd div:nth-child(1) {
+    margin-left: 0rem;
+}
+
+.hd div span,
+.hd div i {
+    font-size: .3rem;
+    font-weight: 500;
+    color: aquamarine;
+}
+
+.xia {
+    overflow: hidden;
+    height: 48rem;
+
+    background-color: rgba(19, 18, 18);
+}
+
+.gd {
+    position: absolute;
+    top: 7.9rem;
+    left: 0;
+    height: 1.4rem;
+    width: 100%;
+    background: -webkit-linear-gradient(rgb(19, 18, 18, 0), rgba(19, 18, 18, 1));
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .32rem;
+    margin-left: 2.02rem;
+    width: 85%;
+    height: 2.5rem;
+
+}
+
+.one div {
+    width: 3.17rem;
+    height: 2.37rem;
+
+}
+
+.small {
+    font-size: .32rem;
+    width: 5rem;
+    height: 0.5rem;
+}
+
+.big {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
+
+    font-size: .32rem;
+    width: 5rem;
+    height: .825rem;
+    display: none;
+}
+
+.xia {
+    overflow: hidden;
+    /* height: 17rem; */
+    height: 13.5rem;
+    background-color: rgba(19, 18, 18);
+}
+
+video {
+    width: 100vw;
+    height: 100vh;
+}
+
+video::-webkit-media-controls-mute-button {
+    display: block;
+}
+
+.ttp .zhu a {
+    z-index: 100;
+}
+
+.hd .tp a {
+    color: #fff;
+}
+
+.xia-one {
+    position: relative;
+    overflow: hidden;
+    margin-left: .79rem;
+    margin-top: .8rem;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    color: #fff;
+}
+
+p {
+    font-size: 0.26rem;
+    color: #fff;
+    width: 50vw;
+    height: 100vh;
+}
+
+.xia-one p i {
+    font-size: .36rem;
+    color: aquamarine;
+}
+
+.xia-one p span {
+    color: aquamarine;
+    ;
+    font-size: .3rem;
+}
+
+.xia-one div {
+    position: absolute;
+    left: 10.625rem;
+    top: 1.875rem;
+    width: 6.875rem;
+    height: 5rem;
+}
+
+.xia-one div img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 2rem;
+}
+
+.hd .ha a {
+    color: #fff;
+}

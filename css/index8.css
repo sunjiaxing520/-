@@ -1,0 +1,81 @@
+body {
+    background: url(../images/bj.png) no-repeat ;
+    background-size: cover;
+    /* background-size: 1rem 1rem; */
+}
+.zuo {
+    float: left;
+    margin-top: 1.25rem;
+    margin-left: 2.5rem;
+    width: 2.5rem;
+    height: 9rem;
+    background: rgba(213, 213, 213, .2);
+ 
+    
+}
+.you {
+    overflow: auto;
+    display: none;
+    
+    float: left;
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+    width: 15rem;
+    height: 9rem;
+    background: rgba(213, 213, 213, .2);
+}
+.you::-webkit-scrollbar {
+    display: none;
+
+}
+.zuo p {
+    /* margin-top: .125rem; */
+    color: #fff;
+    font-size: .25rem;
+    margin-left: .0625rem;
+    /* margin-right: .0625rem; */
+    padding-left: .125rem;
+    height: .875rem;
+    line-height: .875rem;
+}
+.zuo p:hover {
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: .1rem 0 0 .1rem;
+}
+.you p {
+    position:relative;
+    margin-left: .125rem;
+    font-size: 16px;
+    height: .875rem;
+    line-height: .875rem;
+    color: #fff;
+    padding-left: .625rem;
+}
+.you p:hover  {
+    /* text-decoration:solid; */
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: .1rem 0 0 .1rem;
+}
+.you p a {
+    color: #fff;
+    width: 11.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    float: left;
+    
+}
+.you p i {
+    float: right;
+    padding-right: .25rem;
+}
+.you:nth-child(1){
+    display: none;
+}
+.da {
+    display: block;
+}
+.you:nth-child(1){
+    display: block;
+}

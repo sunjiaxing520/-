@@ -1,0 +1,65 @@
+video{
+    width: 100vw;
+    height: 100vh;
+}
+.bt{
+    position: fixed;
+    top: 150px;
+    left: 455px;
+    width: 45vw;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+    font-size: 20px;
+    margin: auto;
+}
+.btt{
+    margin-top: 8px;
+    margin-left: 13px;
+    width: 43vw;
+    height: 47vh;
+    border:  solid 2px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    
+}
+.btt p{
+    margin-top: 30px;
+    margin-bottom: 1px;
+}
+.btt p:nth-child(1){
+    font-family:"宋体";
+    margin-top: 60px;
+    margin-left:15px ;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.btt p:nth-child(2){
+    font-size: 30px;
+    
+}
+.btt p:nth-child(3){
+    margin-top: 60px;
+    font-size: 25px;
+}
+.jr {
+    position: fixed;
+    top: 580px;
+    left: 690px;
+    height: 7vh;
+    width: 14vw;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, .5);
+}
+.jr p{
+    margin-left: 60px;
+    margin-top: 12px;
+    font-size: 21px;
+    letter-spacing: 5px;
+    color: #fff;
+}
+.jr:hover{
+    background: rgba(0, 0, 0, .3);
+}

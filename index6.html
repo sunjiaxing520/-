@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index6.css">
+    <link rel="stylesheet" href="css/commen.css">
+    <script src="JS/Jquery.min.js"></script>
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        $(function () {
+            $('#lbb li').mouseover(function () {
+                var index = $(this).index();
+                console.log(index);
+                $('#ttpp div').eq(index).show();
+                $('#ttpp div').eq(index).siblings().hide();
+            })
+        })
+
+        $(function () {
+            $('.lb li').mouseenter(function () {
+                $(this).stop().animate({
+                    height: 50
+                }).find('.small').stop().fadeOut().siblings('.big').stop().fadeIn();
+                $(this).siblings('li').stop().animate({
+                    height: 30
+                }).find('.small').stop().fadeIn().siblings('.big').stop().fadeOut();
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div class="lb" id="lbb">
+        <ul>
+            <li><a>
+                    <div class="small">猪</div>
+                    <div class="big">猪 <br>性格温驯，适应力强，繁殖快。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">牛</div>
+                    <div class="big">牛<br>大都是大到极大的草食性动物。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">马</div>
+                    <div class="big">马 <br>现存家马和普氏野马两个亚种。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">羊</div>
+                    <div class="big">羊 <br>四腿反刍动物，羊毛的主要来源。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">兔</div>
+                    <div class="big">兔 <br>管状长耳簇状短尾及强健后腿。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">鸡</div>
+                    <div class="big">鸡 <br>一种家禽，家鸡源出于野生的原鸡。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">鸭</div>
+                    <div class="big">鸭 <br>体型相对较小，颈短，嘴要大些。</div>
+                </a></li>
+            <li><a>
+                    <div class="small">鹅</div>
+                    <div class="big">鹅 <br>食草禽，全身都是宝，喜水动物。</div>
+                </a></li>
+        </ul>
+
+    </div>
+    <div class="ttp" id="ttpp">
+        <div class="zhu"><a><img src="images/zhu.jpg" alt=""></a></div>
+        <div class="zhu"><a><img src="images/niu.jfif" alt=""></a></div>
+        <div class="zhu"><a><img src="images/马.jfif" alt=""></a></div>
+        <div class="zhu"><a><img src="images/yang.jpg" alt=""></a></div>
+        <div class="zhu"><a><img src="images/tu.jpg" alt=""></a></div>
+        <div class="zhu"><a><img src="images/鸡.jfif" alt=""></a></div>
+        <div class="zhu"><a><img src="images/ya.jpg" alt=""></a></div>
+        <div class="zhu"><a><img src="images/e.jfif" alt=""></a></div>
+    </div>
+    <div class="bj">
+    </div>
+    <div class="bjr">
+    </div>
+    <div class="hd">
+        <div>
+            <a>
+                <i class="bx bx-folder-open"></i>
+                <span>科学养殖</span>
+            </a>
+        </div>
+        <div class="sp"><a href="index7.html">视频</a></div>
+        <div><a>图片</a></div>
+        <div><a>文献</a></div>
+    </div>
+    <div class="gd">
+
+    </div>
+    <div class="xia">
+        <div class="xia-one">
+            <ul>
+                <li>猪的种类</li>
+                <li><a href="https://baike.baidu.com/item/%E5%A4%A7%E7%99%BD%E7%8C%AA/4719984?fr=aladdin">大白猪</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E6%9D%9C%E6%B4%9B%E5%85%8B%E7%8C%AA">杜洛克猪</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E9%95%BF%E7%99%BD%E7%8C%AA/2642264?fr=aladdin">长白猪</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E7%9A%AE%E7%89%B9%E5%85%B0%E7%8C%AA">皮特兰猪</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E5%A4%A7%E8%8A%B1%E7%99%BD%E7%8C%AA/3887990?fr=aladdin">大花白猪</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E4%B8%9C%E5%8C%97%E6%B0%91%E7%8C%AA">东北民猪</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a href="https://baike.baidu.com/item/%E5%A4%A7%E7%99%BD%E7%8C%AA/4719984?fr=aladdin"><img
+                        src="images/dbz.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E6%9D%9C%E6%B4%9B%E5%85%8B%E7%8C%AA"><img src="images/lkl.jfif"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E9%95%BF%E7%99%BD%E7%8C%AA/2642264?fr=aladdin"><img
+                        src="images/cbz.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E7%9A%AE%E7%89%B9%E5%85%B0%E7%8C%AA"><img src="images/ptlz.jfif"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%A4%A7%E8%8A%B1%E7%99%BD%E7%8C%AA/3887990?fr=aladdin"><img
+                        src="images/dbhz.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E4%B8%9C%E5%8C%97%E6%B0%91%E7%8C%AA"><img src="images/dbmz.jfif"
+                        alt=""></a></div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>大白猪</p>
+                    <span>是世界上最著名，分布最广的主导瘦肉型猪种。</span>
+                </li>
+                <li>
+                    <p>杜洛克猪</p>
+                    <span>脂肪型猪，后来为适应市场需求，改良为瘦肉型猪。</span>
+                </li>
+                <li>
+                    <p>长白猪</p>
+                    <span>世界上分布较广的著名猪种，瘦肉型。</span>
+                </li>
+                <li>
+                    <p>皮特兰猪</p>
+                    <span>在瘦肉率与体型方面，皮特兰猪是极具利用价值的品种。</span>
+                </li>
+                <li>
+                    <p>大花白猪</p>
+                    <span>大花白猪为脂肉兼用型，现主要分布于广东省中部和北部地。</span>
+                </li>
+                <li>
+                    <p>东北民猪</p>
+                    <span>东北民猪是华北猪种，在世界地方猪品种排行第四。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li>牛的种类</li>
+                <li><a href="https://baike.baidu.com/item/%E9%BB%84%E7%89%9B/12914675?fr=aladdin">黄牛</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E6%B0%B4%E7%89%9B%E5%B1%9E/881080?fromtitle=%E6%B0%B4%E7%89%9B&fromid=984986">水牛</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E7%89%A6%E7%89%9B/262319?fr=aladdin">牦牛</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E9%87%8E%E7%89%9B/1664627">野牛</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%BB%B6%E8%BE%B9%E7%89%9B/4880878?fr=aladdin">延边牛</a>
+                </li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E5%8D%97%E9%98%B3%E9%BB%84%E7%89%9B/3264615?fr=aladdin">南阳牛</a>
+                </li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a href="https://baike.baidu.com/item/%E9%BB%84%E7%89%9B/12914675?fr=aladdin"><img src="images/hn.jfif"
+                        alt=""></a></div>
+            <div><a
+                    href="https://baike.baidu.com/item/%E6%B0%B4%E7%89%9B%E5%B1%9E/881080?fromtitle=%E6%B0%B4%E7%89%9B&fromid=984986"><img
+                        src="images/sn.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E7%89%A6%E7%89%9B/262319?fr=aladdin"><img src="images/hn.jfif"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E9%87%8E%E7%89%9B/1664627"><img src="images/yn.jfif" alt=""></a>
+            </div>
+            <div><a href="https://baike.baidu.com/item/%E5%BB%B6%E8%BE%B9%E7%89%9B/4880878?fr=aladdin"><img
+                        src="images/ybn.jpeg" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%8D%97%E9%98%B3%E9%BB%84%E7%89%9B/3264615?fr=aladdin"><img
+                        src="images/nyn.jfif" alt=""></a></div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>黄牛</p>
+                    <span>在农区主要作役用，半农半牧区役乳兼用，牧区则乳肉兼用。</span>
+                </li>
+                <li>
+                    <p>水牛</p>
+                    <span>水牛皮厚、汗腺极不发达，热时需要浸水散热，所以得名水牛。</span>
+                </li>
+                <li>
+                    <p>牦牛</p>
+                    <span>牦牛全身都是宝，藏族人民衣食住行烧耕都离不开它。</span>
+                </li>
+                <li>
+                    <p>野牛</p>
+                    <span>野牛为中国国家一级保护动物，已列为濒危种</span>
+                </li>
+                <li>
+                    <p>延边牛</p>
+                    <span>分布于延边朝鲜族自治区的延吉、和龙、汪清、珲春及各县。</span>
+                </li>
+                <li>
+                    <p>南阳牛</p>
+                    <span>盛产于南阳盆地，并成为全国五大优良黄牛品种之一。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li>马的种类</li>
+                <li><a href="https://baike.baidu.com/item/%E8%92%99%E5%8F%A4%E9%A9%AC/2118352?fr=aladdin">蒙古马</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%A5%BF%E5%8D%97%E9%A9%AC/154752?fr=aladdin">西南马</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E6%B2%B3%E6%9B%B2%E9%A9%AC">河曲马</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E5%93%88%E8%90%A8%E5%85%8B%E9%A9%AC/2118486?fr=aladdin">哈萨克马</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%A5%BF%E8%97%8F%E9%A9%AC">西藏马</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%B9%E9%A9%AC/265606?fr=aladdin">山丹马</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a href="https://baike.baidu.com/item/%E8%92%99%E5%8F%A4%E9%A9%AC/2118352?fr=aladdin"><img
+                        src="images/mgm.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%A5%BF%E5%8D%97%E9%A9%AC/154752?fr=aladdin"><img
+                        src="images/xnm.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E6%B2%B3%E6%9B%B2%E9%A9%AC"><img src="images/hqm.jfif"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%93%88%E8%90%A8%E5%85%8B%E9%A9%AC/2118486?fr=aladdin"><img
+                        src="images/hskm.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%A5%BF%E8%97%8F%E9%A9%AC"><img src="images/xzm.jpg"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%B1%B1%E4%B8%B9%E9%A9%AC/265606?fr=aladdin"><img
+                        src="images/sdm.jfif" alt=""></a></div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>蒙古马</p>
+                    <span>蒙古马被农业部确定为138个国家级畜禽遗传资源保护品种之一。</span>
+                </li>
+                <li>
+                    <p>西南马</p>
+                    <span>性情灵敏而温驯，适于山地，为高原山地的重要运输工具。</span>
+                </li>
+                <li>
+                    <p>河曲马</p>
+                    <span>河曲马，青海省河南县特产，全国农产品地理标志。</span>
+                </li>
+                <li>
+                    <p>哈萨克马</p>
+                    <span>哈萨克马是产于天山北坡、准噶尔西部山地一带的马种。</span>
+                </li>
+                <li>
+                    <p>西藏马</p>
+                    <span>西藏马，是一个高原小型马品种。</span>
+                </li>
+                <li>
+                    <p>山丹马</p>
+                    <span>以驮载为主的兼用型马品种，产于中国甘肃山丹军马场。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li>羊的种类</li>
+                <li><a
+                        href="https://www.baidu.com/link?url=AoTziVwDe5AIAhMtSZAbKfS183cgnGaUaqnDARfIyoTe8U_A2_riAVGkSV68ZlXXk6YEHal3luxq0FNF5Cn78uWfn5Ze5urhlK-fVlVtfBieNU_D0vo7ozzebBtBGRj0&wd=&eqid=85de40a00012306600000002621ce84a">黑山羊</a>
+                </li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E5%B0%8F%E5%B0%BE%E5%AF%92%E7%BE%8A/1486141?fr=aladdin">小尾寒羊</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%B2%A9%E7%BE%8A/803032?fr=aladdin">岩羊</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/pic/%E7%BB%B5%E7%BE%8A/36295/1/a9d3fd1f4134970ae384f62e9acad1c8a7865d38?fr=lemma&ct=single#aid=1&pic=a9d3fd1f4134970ae384f62e9acad1c8a7865d38">绵羊</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E7%BE%9A%E7%BE%8A/19414?fr=aladdin">羚羊</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%B1%B1%E7%BE%8A/620683?fr=aladdin">山羊</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a
+                    href="https://www.baidu.com/link?url=AoTziVwDe5AIAhMtSZAbKfS183cgnGaUaqnDARfIyoTe8U_A2_riAVGkSV68ZlXXk6YEHal3luxq0FNF5Cn78uWfn5Ze5urhlK-fVlVtfBieNU_D0vo7ozzebBtBGRj0&wd=&eqid=85de40a00012306600000002621ce84a"><img
+                        src="images/hsy.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%B0%8F%E5%B0%BE%E5%AF%92%E7%BE%8A/1486141?fr=aladdin"><img
+                        src="images/xwhy.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%B2%A9%E7%BE%8A/803032?fr=aladdin"><img src="images/yy.jfif"
+                        alt=""></a></div>
+            <div><a
+                    href="https://baike.baidu.com/pic/%E7%BB%B5%E7%BE%8A/36295/1/a9d3fd1f4134970ae384f62e9acad1c8a7865d38?fr=lemma&ct=single#aid=1&pic=a9d3fd1f4134970ae384f62e9acad1c8a7865d38"><img
+                        src="images/my.jfif" alt=""></img></div>
+            <div><a href="https://baike.baidu.com/item/%E7%BE%9A%E7%BE%8A/19414?fr=aladdin"><img src="images/ly.jfif"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%B1%B1%E7%BE%8A/620683?fr=aladdin"><img src="images/sy.jfif"
+                        alt=""></a></div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>黑山羊</p>
+                    <span>黑山羊是营山县的主导产业,是畜牧业结构调整的方向和重点。</span>
+                </li>
+                <li>
+                    <p>小尾寒羊</p>
+                    <span>本地大绵羊和新疆细毛羊杂交育成，是全国绵羊优良品种之一。</span>
+                </li>
+                <li>
+                    <p>岩羊</p>
+                    <span>中国国家二级重点保护野生动物。</span>
+                </li>
+                <li>
+                    <p>绵羊</p>
+                    <span>公绵羊多有螺旋状大角具有威慑性，母绵羊无角或角细小。</span>
+                </li>
+                <li>
+                    <p>羚羊</p>
+                    <span>羚羊是对一类偶蹄目牛科动物的统称。羚羊类的动物总共有86种</span>
+                </li>
+                <li>
+                    <p>山羊</p>
+                    <span>有证据表明，我国也是驯养山羊最早的国家之一。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li>兔的种类</li>
+                <li><a href="https://baike.baidu.com/item/%E4%BE%8F%E5%84%92%E5%85%94/7169725?fr=aladdin">侏儒兔</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%9E%82%E8%80%B3%E5%85%94/45236?fr=aladdin">垂耳兔</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/pic/%E5%B7%A8%E5%9E%8B%E5%AE%89%E5%93%A5%E6%8B%89%E5%85%94/1053199/1/7e3e6709c93d70cf7ec5f220f5dcd100baa12bdb?fr=lemma&ct=single#aid=1&pic=ae51f3deb48f8c548de480da30292df5e0fe7f0b">巨兔</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%8D%B7%E5%85%B0%E5%85%94/3302262?fr=aladdin">荷兰兔</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/pic/%E7%8B%AE%E5%AD%90%E5%85%94/2402826/1/6c224f4a20a44623a79217769e22720e0cf3d74e?fr=lemma&ct=single#aid=1&pic=8718367adab44aedf970b36fb31c8701a18bfb7b">狮子头兔</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E6%B5%B7%E6%A3%A0%E5%85%94/10106516?fr=aladdin">海棠兔</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a href="https://baike.baidu.com/item/%E4%BE%8F%E5%84%92%E5%85%94/7169725?fr=aladdin"><img
+                        src="images/zrt.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%9E%82%E8%80%B3%E5%85%94/45236?fr=aladdin"><img
+                        src="images/cet.jfif" alt=""></a></div>
+            <div><a
+                    href="https://baike.baidu.com/pic/%E5%B7%A8%E5%9E%8B%E5%AE%89%E5%93%A5%E6%8B%89%E5%85%94/1053199/1/7e3e6709c93d70cf7ec5f220f5dcd100baa12bdb?fr=lemma&ct=single#aid=1&pic=ae51f3deb48f8c548de480da30292df5e0fe7f0b"><img
+                        src="images/jt.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%8D%B7%E5%85%B0%E5%85%94/3302262?fr=aladdin"><img
+                        src="images/hlt.jfif" alt=""></a></div>
+            <div><a
+                    href="https://baike.baidu.com/pic/%E7%8B%AE%E5%AD%90%E5%85%94/2402826/1/6c224f4a20a44623a79217769e22720e0cf3d74e?fr=lemma&ct=single#aid=1&pic=8718367adab44aedf970b36fb31c8701a18bfb7b"><img
+                        src="images/sztt.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E6%B5%B7%E6%A3%A0%E5%85%94/10106516?fr=aladdin"><img
+                        src="images/hltz.jfif" alt=""></a></div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>侏儒兔</p>
+                    <span>主要生活在有高大茂密的三齿蒿植物丛。</span>
+                </li>
+                <li>
+                    <p>垂耳兔</p>
+                    <span>个体的大小、毛色，体长等与其他兔子各不相同。</span>
+                </li>
+                <li>
+                    <p>巨兔</p>
+                    <span>安哥拉兔有四个品种，以英国安哥拉兔最受欢迎。</span>
+                </li>
+                <li>
+                    <p>荷兰兔</p>
+                    <span>欧、美、澳洲，非常流行的宠物兔。</span>
+                </li>
+                <li>
+                    <p>狮子头兔</p>
+                    <span>源自比利时，是欧洲品种，但还没有被ARBA所承认。</span>
+                </li>
+                <li>
+                    <p>海棠兔</p>
+                    <span>俗称荷达特兔 、熊猫兔，产于法国几乎是完全的草食动物。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li>鸡的种类</li>
+                <li><a href="https://baike.baidu.com/item/%E5%B1%B1%E9%B8%A1/1960590?fr=aladdin">山鸡</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E4%B9%8C%E9%B8%A1/4155496?fr=aladdin">乌鸡</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E7%BA%A2%E8%85%B9%E9%94%A6%E9%B8%A1/351840?fr=aladdin">红腹锦鸡</a>
+                </li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E7%BA%A2%E8%85%BF%E6%96%91%E7%A7%A7%E9%B8%A1/4768284?fr=aladdin">红腿斑秧鸡</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%A4%A7%E7%9F%B3%E9%B8%A1/3219708?fr=aladdin">大石鸡</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E6%B5%A6%E4%B8%9C%E9%B8%A1/4853339?fr=aladdin">浦东鸡</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a href="https://baike.baidu.com/item/%E5%B1%B1%E9%B8%A1/1960590?fr=aladdin"><img src="images/sj.jfif"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E4%B9%8C%E9%B8%A1/4155496?fr=aladdin"><img src="images/wj.jfif"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E7%BA%A2%E8%85%B9%E9%94%A6%E9%B8%A1/351840?fr=aladdin"><img
+                        src="images/hfj.jfif" alt=""></a></div>
+            <div><a
+                    href="https://baike.baidu.com/item/%E7%BA%A2%E8%85%BF%E6%96%91%E7%A7%A7%E9%B8%A1/4768284?fr=aladdin"><img
+                        src="images/htbyj.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%A4%A7%E7%9F%B3%E9%B8%A1/3219708?fr=aladdin"><img
+                        src="images/dsj.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E6%B5%A6%E4%B8%9C%E9%B8%A1/4853339?fr=aladdin"><img
+                        src="images/pdj.jfif" alt=""></a></div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>山鸡</p>
+                    <span>体形较家鸡略小，雄鸟羽色华丽，雌鸟的羽色暗淡。</span>
+                </li>
+                <li>
+                    <p>乌鸡</p>
+                    <span>乌鸡又名武山鸡，个别地区称为小白鸡，已有400多年的历史。</span>
+                </li>
+                <li>
+                    <p>红腹锦鸡</p>
+                    <span>栖息于海拔500-2500米的阔叶林、针阔叶混交林和林缘疏林灌丛地带。</span>
+                </li>
+                <li>
+                    <p>红腿斑秧鸡</p>
+                    <span>属中小型涉禽，头小，喙细长，腿和趾都长。</span>
+                </li>
+                <li>
+                    <p>大石鸡</p>
+                    <span>动物性食物很少，主要为各类昆虫。是中国特有种。 </span>
+                </li>
+                <li>
+                    <p>浦东鸡</p>
+                    <span></span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li>鸭的种类</li>
+                <li><a
+                        href="https://baike.baidu.com/pic/%E5%8C%97%E4%BA%AC%E9%B8%AD/416003/1/5366d0160924ab184735dd4933fae6cd7b890ba8?fr=lemma&ct=single#aid=1&pic=5366d0160924ab184735dd4933fae6cd7b890ba8">北京鸭</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E9%87%91%E5%AE%9A%E9%B8%AD/5012951?fr=aladdin">金定鸭</a></li>
+                <li>|</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E8%BF%9E%E5%9F%8E%E7%99%BD%E9%B8%AD/5012685?fr=aladdin">连城白鸭</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E9%B8%AD/5013048?fr=aladdin">绍兴鸭</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E9%AB%98%E9%82%AE%E9%B8%AD/5013394?fr=aladdin">高邮鸭</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%BB%BA%E6%98%8C%E9%B8%AD/5013413?fr=aladdin">建昌鸭</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a
+                    href="https://baike.baidu.com/pic/%E5%8C%97%E4%BA%AC%E9%B8%AD/416003/1/5366d0160924ab184735dd4933fae6cd7b890ba8?fr=lemma&ct=single#aid=1&pic=5366d0160924ab184735dd4933fae6cd7b890ba8"><img
+                        src="images/bjy.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E9%87%91%E5%AE%9A%E9%B8%AD/5012951?fr=aladdin"><img
+                        src="images/jdy.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%BF%9E%E5%9F%8E%E7%99%BD%E9%B8%AD/5012685?fr=aladdin"><img
+                        src="images/lbcy.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E7%BB%8D%E5%85%B4%E9%B8%AD/5013048?fr=aladdin"><img
+                        src="images/sxy.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E9%AB%98%E9%82%AE%E9%B8%AD/5013394?fr=aladdin"><img
+                        src="images/gyy.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%BB%BA%E6%98%8C%E9%B8%AD/5013413?fr=aladdin"><img
+                        src="images/jcy.jfif" alt=""></a></div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>北京鸭</p>
+                    <span>中华人民共和国农业部对“北京鸭”实施国家登记保护。</span>
+                </li>
+                <li>
+                    <p>金定鸭</p>
+                    <span>金定鸭体格强健，走动敏捷，觅食力强，具有产蛋多、蛋大。</span>
+                </li>
+                <li>
+                    <p>连城白鸭</p>
+                    <span>世界上分布较广的著名猪种，瘦肉型鸭子。</span>
+                </li>
+                <li>
+                    <p>绍兴鸭</p>
+                    <span>绍兴鸭是我国产蛋率高的优良品种。它的特点是体型小。</span>
+                </li>
+                <li>
+                    <p>高邮鸭</p>
+                    <span>是我国江淮地区良种，属蛋肉兼用型地方优良品种。</span>
+                </li>
+                <li>
+                    <p>建昌鸭</p>
+                    <span>建昌鸭，四川省凉山彝族自治州特产，全国农产品地理标志。</span>
+                </li>
+            </ul>
+        </div>
+        <div class="xia-one">
+            <ul>
+                <li>鹅的种类</li>
+                <li><a
+                        href="https://baike.baidu.com/item/%E5%9B%9B%E5%B7%9D%E7%99%BD%E9%B9%85/5016078?fr=aladdin">四川白鹅</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E5%A4%AA%E6%B9%96%E9%B9%85/5015836?fr=aladdin">太湖鹅</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E7%8B%AE%E5%A4%B4%E9%B9%85/950957?fr=aladdin">狮头鹅</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E7%B1%BD%E9%B9%85/5015334?fr=aladdin">籽鹅</a></li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E9%9B%81%E9%B9%85/5016405?fr=aladdin">雁鹅</a>
+                </li>
+                <li>|</li>
+                <li><a href="https://baike.baidu.com/item/%E8%B1%81%E7%9C%BC%E9%B9%85/5015762?fr=aladdin">豁眼鹅</a></li>
+            </ul>
+        </div>
+        <div class="one">
+            <div><a href="https://baike.baidu.com/item/%E5%9B%9B%E5%B7%9D%E7%99%BD%E9%B9%85/5016078?fr=aladdin"><img
+                        src="images/scbe.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E5%A4%AA%E6%B9%96%E9%B9%85/5015836?fr=aladdin"><img
+                        src="images/the.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E7%8B%AE%E5%A4%B4%E9%B9%85/950957?fr=aladdin"><img
+                        src="images/ste.jfif" alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E7%B1%BD%E9%B9%85/5015334?fr=aladdin"><img src="images/ze.jfif"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E9%9B%81%E9%B9%85/5016405?fr=aladdin"><img src="images/ye.jfif"
+                        alt=""></a></div>
+            <div><a href="https://baike.baidu.com/item/%E8%B1%81%E7%9C%BC%E9%B9%85/5015762?fr=aladdin"><img
+                        src="images/hye.jfif" alt=""></a></div>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <p>四川白鹅</p>
+                    <span>四川白鹅是优秀的地方保护品种，位列我国20个鹅品种保护之首。</span>
+                </li>
+                <li>
+                    <p>太湖鹅</p>
+                    <span>太湖鹅是我国著名的小型鹅种，主产于长江三角洲太湖地区。</span>
+                </li>
+                <li>
+                    <p>狮头鹅</p>
+                    <span>我国农间培育出的最大优良品种鹅，也是世界上的大型鹅之一。</span>
+                </li>
+                <li>
+                    <p>籽鹅</p>
+                    <span>是我国优良的地方鹅品种之一，因其突出的产蛋性能而得名。</span>
+                </li>
+                <li>
+                    <p>雁鹅</p>
+                    <span>雁鹅属中型肉用鹅品种，是中国鹅灰色品种中的代表类型。</span>
+                </li>
+                <li>
+                    <p>豁眼鹅</p>
+                    <span>白色中国鹅的小型品变种之一，以优良的产蛋性能著称于世。</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+<script src="./javascript/flexible.js"></script> 
+</html>

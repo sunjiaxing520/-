@@ -1,0 +1,486 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.main_h {
+    position: fixed;
+    top: 0px;
+    max-height: 70px;
+    z-index: 999;
+    width: 100%;
+    padding-top: 17px;
+    background: none;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+    top: -100px;
+    padding-bottom: 6px;
+    font-family: "Montserrat", sans-serif;
+  }
+  @media only screen and (max-width: 766px) {
+    .main_h {
+      padding-top: 25px;
+    }
+  }
+  
+  .open-nav {
+    max-height: 400px !important;
+  }
+  .open-nav .mobile-toggle {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+  }
+  
+  .sticky {
+    background-color: rgba(255, 255, 255, 0.93);
+    opacity: 1;
+    top: 0px;
+    border-bottom: 1px solid gainsboro;
+  }
+  
+  .logo {
+    width: 50px;
+    font-size: 25px;
+    color: #8f8f8f;
+    text-transform: uppercase;
+    float: left;
+    display: block;
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  @media only screen and (max-width: 766px) {
+    .logo {
+      float: none;
+    }
+  }
+  
+  nav {
+    float: right;
+    width: 60%;
+  }
+  @media only screen and (max-width: 766px) {
+    nav {
+      width: 100%;
+    }
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden;
+    text-align: right;
+    float: right;
+  }
+  @media only screen and (max-width: 766px) {
+    nav ul {
+      padding-top: 10px;
+      margin-bottom: 22px;
+      float: left;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+    line-height: 1.5;
+  }
+  @media only screen and (max-width: 766px) {
+    nav ul li {
+      width: 100%;
+      padding: 7px 0;
+      margin: 0;
+    }
+  }
+  nav ul a {
+    color:brown;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: all .2s ease-in-out;
+  }
+
+  nav ul a:hover{
+    font-weight: 600;
+    color: black;
+  }
+  .logo{
+    color: brown;
+  }
+  
+  
+  .mobile-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    right: 22px;
+    top: 0;
+    width: 30px;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+  }
+  @media only screen and (max-width: 766px) {
+    .mobile-toggle {
+      display: block;
+    }
+  }
+  .mobile-toggle span {
+    width: 30px;
+    height: 4px;
+    margin-bottom: 6px;
+    border-radius: 1000px;
+    background: #8f8f8f;
+    display: block;
+  }
+  
+  .row {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 2%;
+  }
+  
+  * {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+    background: white;
+    font-family: "Cardo", serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 30px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 2;
+  }
+  
+  
+  .hero{
+    position: relative;
+    background: url(../红色教育图片/背景a.webp) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding-top: 110px;
+    min-height: 500px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .hero h1 {
+    font-size: 50px;
+    line-height: 1.3;
+  }
+  .hero h1 span {
+    font-size: 25px;
+    color:whitesmoke;
+    border-bottom: 2px solid #e8f380;
+    padding-bottom: 12px;
+    line-height: 3;
+  }
+  
+  .mouse {
+    display: block;
+    margin: 0 auto;
+    width: 26px;
+    height: 46px;
+    border-radius: 13px;
+    border: 2px solid #e8f380;
+    position: absolute;
+    bottom: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -26px;
+  }
+  .mouse span {
+    display: block;
+    margin: 6px auto;
+    width: 2px;
+    height: 2px;
+    border-radius: 4px;
+    background: #e8f380;
+    border: 1px solid transparent;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+  }
+ 
+  @-webkit-keyframes scroll {
+    0% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+  }
+  @keyframes scroll {
+    0% {
+      opacity: 1;
+      
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+  
+    100% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      -ms-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+  }
+
+  /* 内容区 */
+
+  /* 内容大框 */
+  .main1::before,
+  .main1::after{
+    content: "";
+  }
+.main1 ,.main2,.main3,.main4{
+  width: 95%;
+  margin: 15px auto;
+}
+.m11{
+  width: 55%;
+  float: left;
+  margin-right: 5px;
+}
+.m12{
+  width: 44%;
+ float:right;
+  margin-left: 5px;
+}
+img{
+  width: 650px;
+  height:350px;
+}
+.m12 p{
+  background-color: brown;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  font-family: "微软雅黑";
+  width: 100%;
+  padding-left: 10px;
+}
+ .m12 span a{
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "微软雅黑";
+  transition: all .3s ease;
+}
+.m12 span a:hover{
+  color: brown;
+  font-weight: 600;
+}
+.m12 span{
+  margin-left: 20px;
+  margin-top: 30px;
+  display: block;
+  padding-left: 8px;
+  border-left: 3px solid #afafaf;
+}
+
+.fg,.fg1{
+  color: antiquewhite;
+  text-align: center;
+  clear: both;
+  width: 95%;
+  height: 70px;
+  line-height: 80px;
+  margin: 10px auto;
+  font-size: 60px;
+  font-family: "华文行楷";
+}
+.fg{
+  background-image: url(../红色教育图片/分割.webp);
+}
+.fg1{
+  background-image: url(../红色教育图片/分割2.webp);
+}
+
+/* main2 */
+.m21,.m22,.m23{
+  float: left;
+  width:30%;
+  height: 400px;
+  margin: 30px 18px;
+  
+}
+.main2 img{
+  width: 360px;
+  height: 70px;
+}
+.m211,.m221,.m231{
+  height: 70px;
+  margin-bottom: 20px;
+}
+.m212,.m222,.m232{
+  border: #afafaf 1px solid;
+  position: relative;
+  height: 310px;
+  
+}
+.top{
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  font-family: "微软雅黑";
+  font-size: 20px;
+ 
+  border-bottom: none;
+  color: brown;
+  border-top: 5px solid brown;
+}
+.bottom span{
+  display: block;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.bottom span a{
+  font-family: "黑体";
+  color: black;
+  font-size: 17px;
+  transition: all .4s ;
+}
+.bottom span a:hover{
+  color: brown;
+}
+
+/* 毛主席 */
+.m31{
+  width: 62%;
+  height: 300px;
+  margin-right: 20px;
+  background-color:rgb(234, 234, 234);
+  float: left;
+}
+.m31 span,
+.m41 span,
+.m42 span{
+background-color: brown;
+display: block;
+font-family: "微软雅黑";
+font-size: 22px;
+font-weight: 600;
+padding-left: 30px;
+color: white;
+}
+.m31 .a,
+.m41 .a,
+.m42 .a{
+  margin-top: 20px;
+  color: black;
+  font-family: "等线";
+  font-weight: 600;
+  margin-left: 40px;
+}
+.m31 .b,
+.m41 .b,
+.m42 .b{
+  text-indent: 2rem;
+  font-family: "等线";
+  margin-left: 40px;
+}
+
+.m32{
+  width: 35%;
+  height: 300px;
+  background-image: url(../红色教育图片/毛主席.webp);
+  float: right;
+}
+
+/* 毛主席 */
+
+.m41,.m42{
+  width: 46%;
+  height: 300px;
+  background-color:rgb(234, 234, 234);
+  float: left;
+  margin: 15px 20px;
+}
+.m31,.m41,.m42,.m212,.m222,.m232{
+  transition: all .5s ease-in-out;
+}
+.m31:hover,
+.m41:hover,
+.m42:hover,
+.m212:hover,
+.m222:hover,.m232:hover{
+
+  box-shadow: #565555 4px 4px 1px;
+}
+
+/* 底部 */
+@media (max-width: 728px){section.cards .card{width:100%;display:block;margin:10px 0 0 0 !important;padding:0}}body{margin:0px;padding:0px}
+footer{
+    clear: both;
+    height:270px;
+    background:brown}
+section:last-child{margin-bottom:100px}@keyframes bounce{0%,20%,50%,80%,100%{-moz-transform:translateY(0);-ms-transform:translateY(0);-webkit-transform:translateY(0);transform:translateY(0)}40%{-moz-transform:translateY(-30px);-ms-transform:translateY(-30px);-webkit-transform:translateY(-30px);transform:translateY(-30px)}60%{-moz-transform:translateY(-15px);-ms-transform:translateY(-15px);-webkit-transform:translateY(-15px);transform:translateY(-15px)}}.arrow{position:fixed;bottom:50px;left:50%;cursor:pointer;margin-left:-20px;width:20px;height:20px;padding:20px;z-index:99;background-color:brown;border-radius:50em;background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);background-size:20px 15px;background-repeat:no-repeat;background-position:center}
+.bounce{-moz-animation:bounce 2s infinite;-webkit-animation:bounce 2s infinite;animation:bounce 2s infinite}
+
+.f1{
+  line-height: 260px;
+  float: left;
+  margin-left: 300px;
+
+}
+.f1 span{
+  color: aliceblue;
+  font-family: "微软雅黑";
+  font-size: 18px;
+  font-weight: 600;
+}
+.f2{
+  line-height: 260px;
+  float: left;
+}
+.f2 ul li{
+  float: left;
+  margin-left: 50px;
+  list-style-type: none;
+}
+.f2 ul li a{
+border-bottom: 1px solid white;
+  color: white;
+  font-family: "微软雅黑";
+  font-weight: 600;
+  transition: all .4s ease-in-out;
+}
+.f2 ul li a:hover{
+  color: #afafaf;
+}
+
+  

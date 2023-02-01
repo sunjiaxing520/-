@@ -1,0 +1,348 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #efefef;
+}
+.dongtai-1 {
+  height: 5.9rem;
+  width: calc(100%-5rem);
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.dongtai-1 a {
+  text-decoration: none;
+  color: white;
+}
+.dongtai-1 .left {
+  float: left;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+}
+.dongtai-1 .left img {
+  z-index: 2;
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.dongtai-1 .left .dongtai_1_zi {
+  z-index: 3;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  top: -1rem;
+  line-height: 1rem;
+  font-size: 0.3rem;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+.dongtai-1 .right {
+  float: right;
+  height: 100%;
+  width: 48.3%;
+  background-color: #ffffff;
+}
+.dongtai-1 .right a {
+  color: #000;
+  text-decoration: none;
+}
+.dongtai-1 .right .right_up {
+  height: 1.08rem;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: 0.38rem;
+  line-height: 1rem;
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: 0.02rem;
+}
+.dongtai-1 .right .right_up .right_up-1 {
+  float: right;
+  height: 100%;
+  width: 33.33%;
+}
+.dongtai-1 .right .right_up .right_up-2 {
+  float: right;
+  height: 100%;
+  width: 33.33%;
+}
+.dongtai-1 .right .right_up .right_up-3 {
+  height: 100%;
+  width: 33.33%;
+}
+.dongtai-1 .right .heng {
+  height: 0.03rem;
+  width: 2.54rem;
+  background-color: #000000;
+  position: relative;
+  top: -0.04rem;
+  left: 0.43rem;
+  transition: all 0.5s ease;
+}
+.dongtai-1 .right .right_down {
+  width: 100%;
+  height: 4.7rem;
+  margin-left: 0.4rem;
+}
+.dongtai-1 .right .right_down ul {
+  height: 100%;
+  width: 92.4%;
+}
+.dongtai-1 .right .right_down ul li {
+  width: 100%;
+  height: 0.766rem;
+  line-height: 0.766rem;
+  border-bottom-style: solid;
+  border-width: 0.02rem;
+  border-color: #a3a3a3;
+}
+.dongtai-1 .right .right_down ul li a {
+  font-size: 0.3rem;
+  text-decoration: aqua;
+}
+.dongtai-1 .right .right_down ul li a:hover {
+  color: #5194eb;
+}
+.dongtai-2 {
+  background-color: #ffffff;
+  height: 1.88rem;
+  width: calc(100%-5rem);
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  position: relative;
+  top: 0.4rem;
+}
+.dongtai-2 .gonggao_1 {
+  float: left;
+  color: #fffdfd;
+  height: 1.88rem;
+  width: 1.88rem;
+  background-color: #1083c7;
+  text-align: center;
+  font-size: 0.5rem;
+  line-height: 0.9rem;
+}
+.dongtai-2 .gonggao_2 {
+  float: left;
+  height: 68%;
+  width: 15.5rem;
+  position: relative;
+  top: 0.3rem;
+  border-right-style: solid;
+  border-right-color: #7b7b7b;
+  border-width: 0.02rem;
+}
+.dongtai-2 .gonggao_2 a {
+  text-decoration: none;
+  color: #000;
+}
+.dongtai-2 .gonggao_2 .gonggao_2-1 {
+  height: 50%;
+  width: 100%;
+}
+.dongtai-2 .gonggao_2 .gonggao_2-1 img {
+  height: 0.5rem;
+  position: relative;
+  top: 0.1rem;
+  left: 0.1rem;
+}
+.dongtai-2 .gonggao_2 .gonggao_2-1 #qianmian {
+  font-size: 0.28rem;
+  position: relative;
+  top: -0.05rem;
+  left: 0.2rem;
+}
+.dongtai-2 .gonggao_2 .gonggao_2-1 #houmian {
+  font-size: 0.28rem;
+  position: relative;
+  top: -0.05rem;
+  left: 6.5rem;
+  color: #a2a2a2;
+}
+.dongtai-2 .gonggao_2 .gonggao_2-2 {
+  height: 50%;
+  width: 100%;
+}
+.dongtai-2 .gonggao_2 .gonggao_2-2 img {
+  height: 0.5rem;
+  position: relative;
+  top: 0.1rem;
+  left: 0.1rem;
+}
+.dongtai-2 .gonggao_2 .gonggao_2-2 #qianmian {
+  font-size: 0.28rem;
+  position: relative;
+  top: -0.05rem;
+  left: 0.2rem;
+}
+.dongtai-2 .gonggao_2 .gonggao_2-2 #houmian {
+  font-size: 0.28rem;
+  position: relative;
+  top: -0.05rem;
+  left: 12.38rem;
+  color: #a2a2a2;
+}
+.dongtai-3 {
+  background-color: #8b6b6b;
+  height: 5.38rem;
+  width: calc(100%-5rem);
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  position: relative;
+  top: 1rem;
+}
+.dongtai-3 .left {
+  float: left;
+  background-color: #ffffff;
+  width: 10.7rem;
+  height: 100%;
+}
+.dongtai-3 .left .left_up {
+  width: 10.7rem;
+  height: 3.12rem;
+  border-bottom-style: solid;
+  border-bottom-width: 0.02rem;
+}
+.dongtai-3 .left .left_up .left_up_left {
+  color: #000000;
+  float: left;
+  background-color: rgba(46, 46, 46, 0.3);
+  width: 0.6rem;
+  height: 2.2rem;
+  font-size: 0.34rem;
+  text-align: center;
+  line-height: 0.532rem;
+  position: relative;
+  top: 0.45rem;
+  left: 0.4rem;
+}
+.dongtai-3 .left .left_up .left_up_right {
+  float: right;
+  height: 2.92rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  width: 85%;
+  background-color: #ffffff;
+}
+.dongtai-3 .left .left_up .left_up_right ul {
+  height: 100%;
+  width: 100%;
+}
+.dongtai-3 .left .left_up .left_up_right ul a {
+  text-decoration: none;
+  color: #000;
+}
+.dongtai-3 .left .left_up .left_up_right ul li {
+  line-height: 0.59rem;
+  font-size: 0.3rem;
+}
+.dongtai-3 .left .left_up .left_up_right ul li span {
+  float: right;
+  font-size: 0.3rem;
+  color: #959595;
+  position: relative;
+  right: 0.2rem;
+}
+.dongtai-3 .left .left_down {
+  height: 2.24rem;
+  width: 10.7rem;
+}
+.dongtai-3 .left .left_down .left_down_left {
+  color: #000000;
+  float: left;
+  background-color: rgba(46, 46, 46, 0.3);
+  width: 0.6rem;
+  height: 2.24rem;
+  font-size: 0.34rem;
+  text-align: center;
+  line-height: 0.532rem;
+  position: relative;
+  left: 0.4rem;
+}
+.dongtai-3 .left .left_down .left_down_right {
+  height: 100%;
+  width: 9.7rem;
+  position: relative;
+  left: 1rem;
+}
+.dongtai-3 .left .left_down .left_down_right ul {
+  position: relative;
+  top: 0.25rem;
+  height: 100%;
+  width: 100%;
+}
+.dongtai-3 .left .left_down .left_down_right ul a {
+  text-decoration: none;
+  color: #000;
+}
+.dongtai-3 .left .left_down .left_down_right ul li {
+  line-height: 0.59rem;
+  font-size: 0.3rem;
+}
+.dongtai-3 .left .left_down .left_down_right ul li span {
+  float: right;
+  font-size: 0.3rem;
+  color: #959595;
+  position: relative;
+  right: 0.2rem;
+}
+.dongtai-3 .right {
+  float: right;
+  background-color: #000;
+  width: 8.3rem;
+  height: 100%;
+  overflow: hidden;
+}
+.dongtai-3 .right img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s ease;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.dongtai-3 .right img:hover {
+  height: 120%;
+  width: 120%;
+  position: relative;
+  top: -1rem;
+  left: -1rem;
+}
+.down {
+  width: 100%;
+  height: 5rem;
+  background-color: #3d3d3d;
+  border-top-style: solid;
+  border-color: #1083c7;
+  position: relative;
+  top: 2rem;
+}
+.down img {
+  height: 1.2rem;
+  position: relative;
+  top: 1.8rem;
+  left: 4.6rem;
+}
+.down #sjx_1 {
+  position: relative;
+  top: 2.1rem;
+  left: 2.97rem;
+  font-size: 0.2rem;
+  font-weight: bold;
+  color: #1083c7;
+}
+.down #sjx_2 {
+  color: #f4f9fc;
+  position: relative;
+  top: 1.6rem;
+  left: 7rem;
+}
+.down #sjx_2 a {
+  text-decoration: none;
+  color: #1083c7;
+}

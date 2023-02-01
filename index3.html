@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Drop Down Sidebar Menu | CodingLab </title>
+    <link rel="stylesheet" href="css/index3.css">
+    <!-- Boxiocns CDN Link -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./javascript/a.js"></script>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class="bx bxl-c-plus-plus"></i>
+            <span class="logo_name">信息管理系统</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#"  onclick="sy();">
+                    <i class="bx bx-grid-alt"></i>
+                    <span class="link_name">后台首页</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#" onclick="sy();">后台首页</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#"  onclick="yl();">
+                        <i class="bx bx-collection"></i>
+                        <span class="link_name">政策文件</span>
+                    </a>
+                    <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">政策文件</a></li>
+                    <li><a href="#"  onclick="yl();">医疗方面</a></li>
+                    <li><a href="#"  onclick="td();">土地方面</a></li>
+                    <!-- <li><a href="#"  onclick="hk();">户口方面</a></li> -->
+                    <li><a href="#"  onclick="xc();">乡村振兴</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class="bx bx-book-alt"></i>
+                        <span class="link_name" >技术学习</span>
+                    </a>
+                    <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">技术学习</a></li>
+                    <li  onclick="yz();"><a href="#">科学养殖</a></li>
+                    <li  onclick="zz();"><a href="#">科学种植</a></li>
+                    <li  onclick="wx();"><a href="#">文献</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#" onclick="hswh();">
+                    <i class="bx bx-line-chart"></i>
+                    <span class="link_name">红色文化</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">红色文化</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="http://www.ndrcc.org.cn/" target="_blank">
+                    <i class="bx bx-compass"></i>
+                    <span class="link_name">国家减灾</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">国家减灾</a></li>
+                </ul>
+
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#">
+                        <i class="bx bx-pie-chart-alt-2"></i>
+                        <span class="link_name">建档立卡</span>
+                    </a>
+                    <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">建档立卡</a></li>
+                    <li><a href="#" onclick="znys();">智能预审</a></li>
+                    <!-- <li><a href="#">小型&nbsp;轻型农机装置</a></li> -->
+                    <li><a href="#" onclick="jdlkhcx();">建档立卡户查询</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="iocn-link">
+                    <a href="#" onclick="jyzy();">
+                        <i class="bx bx-history"></i>
+                        <span class="link_name">教育资源</span>
+                    </a>
+                    <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <ul class="sub-menu">
+                    <li><a class="link_name" href="#">教育资源</a></li>
+                    <li onclick="xx();"><a href="#">教育平台</a></li>
+                    <li onclick="cz();"><a href="#">校园建设</a></li>
+                    <li onclick="gz();"><a href="#">特殊教育</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bx bx-cog"></i>
+                    <span class="link_name">设置</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">设置</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="profile-details">
+                    <div class="profile-content">
+                        <img src="images/Big Date.jpg" alt="profile">
+                    </div>
+                    <div class="name-job">
+                        <div class="profile_name">辽宁科技学院</div>
+                        <div class="job">曙光大数据学院</div>
+                    </div>
+                    <i class="bx bx-log-out"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+        <div class="home-content">
+            <i class="bx bx-menu" id="btn1" onclick="text();"></i>
+            <span class="text">Management System</span>
+            <div class="bq"><i class="bx bx-badge"></i>
+                <div>
+                    <div class="showTime">2020年3月17日&nbsp0:54:14</div>
+                </div>
+    </section> 
+
+    <div class="ifra" id="ifr">
+        <iframe src="./personal.html" id="ifram" frameborder="0"></iframe>
+        <!-- scrolling='no' -->
+    </div>
+    <script>
+        let arrow = document.querySelectorAll(".arrow");
+        for (var i = 0; i < arrow.length; i++) {
+            arrow[i].addEventListener("click", (e) => {
+                let arrowParent = e.target.parentElement.parentElement;
+                arrowParent.classList.toggle("showMenu");
+            });
+        }
+
+        // var land = window.frameElement['.ifra'].document.getElementById('sjxx')
+        // ==================点击=================
+        var iframe=document.getElementById('ifram');
+        function sy(){
+            // alert('a');
+            iframe.src='personal.html';
+        }
+        function yl(){
+            // alert('a');
+            iframe.src='medical.html';
+        }
+        function yz(){
+            // alert('a');
+            iframe.src='index6.html';
+        }
+        function td(){
+            // alert('a');
+            iframe.src='land.html';
+        }
+        function xc(){
+            iframe.src='xczx.html';
+        }
+        function jy(){
+            iframe.src='indexlyl.html';
+        }
+        function wx(){
+            iframe.src='index8.html'
+        }
+        function hswh(){
+            iframe.src='hs1.html'
+        }
+        function znys(){
+            iframe.src='znys.html'
+        }
+        function jdlkhcx(){
+            iframe.src='jdlkcx.html'
+        }
+        function jyzy(){
+            iframe.src='indexlyl.html'
+        }
+        function xx(){
+            iframe.src='test.html'
+        }
+        function cz(){
+            iframe.src='test1.html'
+        }
+        function gz(){
+            iframe.src='test2.html'
+        }
+        // *********************父页面获取iframe子页面元素代码
+        // var sjx = window.frames["#ifr"].document.getElementById("#sjx");
+        // $(".ifra")[0].contentWindow.$("#sjx").attr("width","240px");
+        let num = 0;
+        // 获取元素
+        var box = document.getElementById('ifr');
+        
+        function text(){
+            num+=1
+            nums=num%2
+            // alert(nums)
+            if(nums){
+                // alert("大")
+                box.style.width='calc(100% - 78px)';
+                // ifr.style.width=(ifrwidth+200)+"px";
+                // sjx.style.width='240px';
+                // $(".ifra")[0].contentWindow.$("#sjx").attr("width","600px");
+
+            }
+            else{
+                // alert('小')
+                box.style.width='calc(100% - 260px)';
+            }
+        }
+        // ********************后台首页
+        
+
+        let sidebar = document.querySelector(".sidebar");
+        let sidebarBtn = document.querySelector(".bx-menu");
+        console.log(sidebarBtn);
+        sidebarBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("close");
+        });
+        var t = null;
+        t = setTimeout(time, 1000); //開始运行
+        function time() {
+            clearTimeout(t); //清除定时器
+            dt = new Date();
+            var y = dt.getFullYear();
+            var mt = dt.getMonth() + 1;
+            var day = dt.getDate();
+            var h = dt.getHours(); //获取时
+            var m = dt.getMinutes(); //获取分
+            var s = dt.getSeconds(); //获取秒
+            document.querySelector(".showTime").innerHTML =
+                y +
+                "年" +
+                mt +
+                "月" +
+                day +
+                "日" + "&nbsp" +
+                h +
+                ":" +
+                m +
+                ":" +
+                s;
+            t = setTimeout(time, 1000); //设定定时器，循环运行
+        }
+        // sy.src='personal.html';
+    </script>
+    <!-- <script src="./javascript/land.js"></script> -->
+
+</html>

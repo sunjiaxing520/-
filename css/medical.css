@@ -1,0 +1,480 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #11101d;
+}
+.up {
+  margin-top: 0.01rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  width: calc(100% - 0.6rem);
+  height: 0.8rem;
+  border-radius: 0.04rem;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-color: aliceblue;
+  border-width: 0.03 \4\5rem;
+}
+.up img {
+  float: left;
+  width: 0.5rem;
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+}
+.up p {
+  float: left;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.3rem;
+  color: aliceblue;
+  margin-top: 0.12rem;
+}
+.up #a2 {
+  color: aliceblue;
+  border-bottom: solid;
+  border-width: 0.04rem;
+}
+.up a {
+  font-size: 0.33rem;
+  float: left;
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #848391;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: aliceblue;
+  border-style: none;
+  border-width: 1rem;
+  position: relative;
+  top: 0.4rem;
+}
+.up a:hover {
+  color: aliceblue;
+}
+.up #qdy {
+  font-size: 0.5rem;
+  font-weight: 400;
+}
+.heng {
+  position: fixed;
+  width: 100%;
+  height: 0.03rem;
+  background-color: aliceblue;
+  position: relative;
+  top: 0.2rem;
+}
+.big {
+  background-color: #11101d;
+  width: 100%;
+  height: 13rem;
+  position: relative;
+  top: 0.21rem;
+}
+.sy {
+  background-color: #fbfbfb;
+  width: 16rem;
+  height: 10rem;
+  position: relative;
+  top: 0.4rem;
+  left: 1.3rem;
+  text-align: left;
+  border-style: solid;
+  border-radius: 0.05rem;
+  border-width: 0.02rem;
+  border-color: #737070;
+}
+.sy ul {
+  color: #07519a;
+  position: relative;
+  top: -0.2rem;
+}
+.sy a {
+  color: #07519a;
+  text-decoration: none;
+}
+.sy a:hover {
+  text-decoration: underline;
+}
+.sy li {
+  font-size: 0.28rem;
+  line-height: 0.5rem;
+  position: relative;
+  left: 0.4rem;
+}
+.sy li p {
+  float: right;
+  position: relative;
+  right: 0.5rem;
+  color: rgba(3, 3, 3, 0.6);
+}
+.sy .long {
+  border-top: dashed;
+  border-color: #9c9d9d;
+  border-width: 0.03rem;
+  height: 0.03rem;
+  width: calc(100%-0.6rem);
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+.sy #long2 {
+  position: relative;
+  top: 0.38rem;
+}
+.sy #long3 {
+  position: relative;
+  top: 0.7rem;
+}
+.sy .ul2 {
+  position: relative;
+  top: 0.1rem;
+}
+.sy .ul3 {
+  position: relative;
+  top: 0.5rem;
+}
+.sy .ul4 {
+  position: relative;
+  top: 0.9rem;
+}
+.sy .long1 {
+  background-color: #000000;
+  width: 100%;
+  height: 0.03rem;
+  position: relative;
+  top: 0.9rem;
+}
+.sy .btn1 {
+  font-size: 0.25rem;
+  width: 100%;
+  height: 0.6rem;
+  text-align: center;
+  position: relative;
+  top: 1.08rem;
+}
+.you {
+  float: right;
+  height: 10rem;
+  width: 5rem;
+  position: relative;
+  top: -9.64rem;
+  right: 1.5rem;
+  border-radius: 0.02rem;
+}
+.you .hot {
+  width: 100%;
+  height: 4rem;
+  background-color: #ffffff;
+  border-radius: 0.04rem;
+}
+.you .hot .hot1 {
+  font-size: 0.4rem;
+  text-align: left;
+  width: 100%;
+  height: 0.6rem;
+  background-color: #cad0d5;
+}
+.you .hot .hot1 img {
+  height: 0.45rem;
+  margin-left: 0.2rem;
+  position: relative;
+  top: 0.07rem;
+}
+.you .tui {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 0.04rem;
+  position: relative;
+  top: 0.1rem;
+}
+.you .tui .tui1 {
+  font-size: 0.4rem;
+  text-align: left;
+  width: 100%;
+  height: 0.6rem;
+  background-color: #cad0d5;
+}
+.you .tui .tui1 img {
+  height: 0.45rem;
+  margin-left: 0.2rem;
+  position: relative;
+  top: 0.07rem;
+}
+.you .yy {
+  width: 100%;
+  height: 3.32rem;
+  background-color: #ffffff;
+  border-radius: 0.04rem;
+  position: relative;
+  top: 0.2rem;
+}
+.you .yy .yy1 {
+  font-size: 0.4rem;
+  text-align: left;
+  width: 100%;
+  height: 0.6rem;
+  background-color: #cad0d5;
+}
+.you .yy .yy1 img {
+  height: 0.45rem;
+  margin-left: 0.2rem;
+  position: relative;
+  top: 0.07rem;
+}
+.left {
+  float: left;
+  height: 9.6rem;
+  width: 7rem;
+  position: relative;
+  top: 0.5rem;
+  left: -3rem;
+}
+.left .aaa1 {
+  width: 7rem;
+  height: 0.9rem;
+  background-color: rgba(8, 8, 8, 0.6);
+  position: absolute;
+  top: 3.275rem;
+  color: aliceblue;
+  line-height: 0.9rem;
+}
+.left .aaa2 {
+  width: 7rem;
+  height: 0.9rem;
+  background-color: rgba(8, 8, 8, 0.6);
+  position: absolute;
+  top: 8.25rem;
+  color: aliceblue;
+  line-height: 0.9rem;
+}
+.left .img1 {
+  width: 7rem;
+  height: 4.17rem;
+}
+.left .img1 img {
+  width: 100%;
+  height: 100%;
+}
+.left .img2 {
+  width: 7rem;
+  height: 4.17rem;
+  position: relative;
+  top: 0.81rem;
+}
+.left .img2 img {
+  width: 100%;
+  height: 100%;
+}
+.left #aaaaa {
+  margin-bottom: 0.1rem;
+}
+.right {
+  background-color: rgba(0, 0, 0, 0.1);
+  float: right;
+  height: 9.1415rem;
+  width: 12.4rem;
+  position: relative;
+  top: 0.5rem;
+  right: 3rem;
+}
+.right a {
+  font-size: 0.24rem;
+  text-decoration: none;
+  color: aliceblue;
+}
+.right a li {
+  line-height: 0.91415rem;
+  list-style: none;
+  width: 100%;
+  height: 0.91415rem;
+  transition: all 0.1s ease;
+  border-radius: 0.08rem;
+}
+.right a li span {
+  float: right;
+  position: relative;
+  right: 0.5rem;
+}
+.right ul li:hover {
+  background-color: rgba(86, 85, 85, 0.8);
+}
+.page {
+  color: aliceblue;
+  float: right;
+  height: 0.8rem;
+  width: 5rem;
+  position: relative;
+  right: 3rem;
+  top: 0.5rem;
+  line-height: 0.8rem;
+}
+.page img {
+  height: 0.4rem;
+  position: relative;
+  top: 0.1rem;
+}
+.left1 {
+  float: left;
+  height: 9.6rem;
+  width: 7rem;
+  position: relative;
+  top: 0.5rem;
+  left: -3rem;
+}
+.left1 .aaa1 {
+  width: 7rem;
+  height: 0.9rem;
+  background-color: rgba(8, 8, 8, 0.6);
+  position: absolute;
+  top: 3.275rem;
+  color: aliceblue;
+  line-height: 0.9rem;
+}
+.left1 .aaa2 {
+  width: 7rem;
+  height: 0.9rem;
+  background-color: rgba(8, 8, 8, 0.6);
+  position: absolute;
+  top: 8.25rem;
+  color: aliceblue;
+  line-height: 0.9rem;
+}
+.left1 .img3 {
+  width: 7rem;
+  height: 4.17rem;
+}
+.left1 .img3 img {
+  width: 100%;
+  height: 100%;
+}
+.left1 .img4 {
+  width: 7rem;
+  height: 4.17rem;
+  position: relative;
+  top: 0.81rem;
+}
+.left1 .img4 img {
+  width: 100%;
+  height: 100%;
+}
+.left1 #aaaaa {
+  margin-bottom: 0.1rem;
+}
+.right1 {
+  background-color: rgba(0, 0, 0, 0.1);
+  float: right;
+  height: 9.1415rem;
+  width: 12.4rem;
+  position: relative;
+  top: 0.5rem;
+  right: 3rem;
+}
+.right1 a {
+  font-size: 0.24rem;
+  text-decoration: none;
+  color: aliceblue;
+}
+.right1 a li {
+  line-height: 0.91415rem;
+  list-style: none;
+  width: 100%;
+  height: 0.91415rem;
+  transition: all 0.1s ease;
+  border-radius: 0.08rem;
+}
+.right1 a li span {
+  float: right;
+  position: relative;
+  right: 0.5rem;
+}
+.right1 ul li:hover {
+  background-color: rgba(86, 85, 85, 0.8);
+}
+.page1 {
+  color: aliceblue;
+  float: right;
+  height: 0.8rem;
+  width: 5rem;
+  position: relative;
+  right: 3rem;
+  top: 0.5rem;
+  line-height: 0.8rem;
+}
+.page1 img {
+  height: 0.4rem;
+  position: relative;
+  top: 0.1rem;
+}
+.select {
+  float: right;
+  background-color: #11101d;
+  height: 0.6rem;
+  width: 2rem;
+  position: relative;
+  top: -8.64rem;
+  left: 4.2rem;
+  border-style: none;
+}
+.select select {
+  text-align: center;
+  height: 0.6rem;
+  width: 1.5rem;
+  font-size: 0.3rem;
+  line-height: 0.6rem;
+  color: aliceblue;
+  background-color: #11101d;
+  border-style: none;
+}
+.left2 {
+  background-color: aliceblue;
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  top: 2.07rem;
+  left: 1.2rem;
+}
+.left2 img {
+  width: 100%;
+  height: 100%;
+}
+.sun {
+  height: 0.8rem;
+  width: 8rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+  top: -0.869rem;
+  line-height: 0.8rem;
+  color: aliceblue;
+  text-align: center;
+}
+.right2 {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 11.5rem;
+  height: 8rem;
+  position: absolute;
+  top: 2.07rem;
+  left: 9.21rem;
+}
+.right2 a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.right2 a li {
+  list-style: none;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.right2 a li span {
+  float: right;
+  margin-right: 0.3rem;
+}
+.right2 ul li:hover {
+  background-color: rgba(86, 85, 85, 0.8);
+}

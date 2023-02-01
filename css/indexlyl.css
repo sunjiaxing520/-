@@ -1,0 +1,413 @@
+body{
+    margin: 0;
+    background-color: #efeded;
+    /* background-color: rgb(102, 177, 211); */
+}
+
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* 设置外部容器的样式 */
+.title1{
+    width: 100%;
+    height: 1.5rem;
+    position:absolute;
+    background-color:rgba(255, 228,196, .4);
+    top: 0;
+    transition: all 0.8s ease ease-in-out;
+    
+}
+/* 设置内部容器的样式 */
+.title2{
+    width:100%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+/* 设置左侧菜单 */
+.titleleft{
+    float: left;
+}
+/* 设置右侧菜单 */
+.titleright{
+    list-style-type: none;
+    float: right;
+}
+.titleright li{
+    float: left;
+    margin: 0 .625rem;
+}
+/* 设置字体样式 */
+li a{
+    font-size: .3125rem;
+    font-family: "黑体";
+    font-weight: 600;
+    color:black;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+li a:hover{
+  color: white;
+  
+}
+.biaoti{
+  color: black;
+}
+
+/* 设置图片样式 */
+ .lbt{
+  width: 100%;
+  height: 8.75rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* 设置内容区 */
+.section1::before,
+.section1::after{
+    content:''; 
+    clear: both;   
+}
+.section1{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  
+}
+.edu1{
+  width: 100%;
+  margin-top: .5rem;
+  font-size: .375rem;
+  color: white;
+  background-color: rgb(77, 157, 172);
+  padding-bottom: .1875rem;
+  
+}
+
+/* 第一排盒子模型 */
+
+.box1{
+  width: 100%;
+  margin: 0 auto;  
+  display: flex;
+}
+.lj{
+  display: flex;
+  float:right;
+}
+.box11{
+  float: left;
+  width: 3.125rem;
+  height: 3.125rem;
+  margin: .625rem .78rem;
+}
+.nr1,.nr2,.nr3,.nr4,.nr5{
+  width: 3.125rem;
+  height: 3.125rem;
+  position: relative;
+  
+  box-shadow: .125rem .125rem .625rem rgba(37, 37, 36, 0.4);
+}
+.nr1{
+  background:url(../教育资源图片/义务a.webp) no-repeat;
+  background-size: 3.125rem 3.125rem; 
+}
+.nr2{
+  background:url(../教育资源图片/义务b.webp) no-repeat; 
+  background-size: 3.125rem 3.125rem; 
+}
+.nr3{
+  background:url(../教育资源图片/义务c.webp) no-repeat; 
+  background-size: 3.125rem 3.125rem; 
+}
+.nr4{
+  background:url(../教育资源图片/义务d.webp) no-repeat; 
+  background-size: 3.125rem 3.125rem; 
+}
+.nr5{
+  background:url(../教育资源图片/义务e.webp) no-repeat; 
+  background-size: 3.125rem 3.125rem; 
+}
+.nr11,.nr21,.nr31,.nr41,.nr51{
+  transform: scale(1);
+  width:100%;
+  height:100%;
+  position: absolute;
+  opacity: 0;
+  transition: all .2s ease-in-out
+}
+.nr11,.nr21,.nr31,.nr41,.nr51{
+
+  background-color:rgba(0, 0, 0,.5);
+  background-size: 3.125rem 3.125rem; 
+}
+
+/* 设置鼠标移入效果 */
+.nr1:hover{
+  box-shadow: .25rem .25rem .3125rem rgba(37, 37, 36, 0.5);
+}
+.nr2:hover{
+  box-shadow: .25rem .25rem .3125rem rgba(37, 37, 36, 0.5);
+}
+.nr3:hover{
+  box-shadow: .25rem .25rem .3125rem rgba(37, 37, 36, 0.5);
+}
+.nr4:hover{
+  box-shadow: .25rem .25rem .3125rem rgba(37, 37, 36, 0.5);
+}
+.nr5:hover{
+  box-shadow: .25rem .25rem .3125rem rgba(37, 37, 36, 0.5);
+}
+.nr1:hover .nr11{
+  opacity: 1;
+  transform: scale(1);
+}
+.nr2:hover .nr21{
+  opacity: 1;
+  transform: scale(1);
+}
+.nr3:hover .nr31{
+  opacity: 1;
+  transform: scale(1);
+}
+.nr4:hover .nr41{
+  opacity: 1;
+  transform: scale(1);
+}
+.nr5:hover .nr51{
+  opacity: 1;
+  transform: scale(1);
+}
+/* 设置显示字体 */
+.xzc{
+  opacity: 0;
+  font-size: .25rem;
+  text-align: center;
+  color: aliceblue;
+  transition: all .2s ease-in-out;
+}
+.nr1:hover .nr11>.xzc{
+  opacity: 1;
+}
+.nr2:hover .nr21>.xzc{
+  opacity: 1;
+}
+.nr3:hover .nr31>.xzc{
+  opacity: 1;
+}
+.nr4:hover .nr41>.xzc{
+  opacity: 1;
+}
+.nr5:hover .nr51>.xzc{
+  opacity: 1;
+}
+/* 设置超链接字体样式 */
+.zc{
+display: block;
+color: rgb(21, 109, 136);
+margin: .35rem auto;
+font-weight: 600;
+font-family: "黑体";
+transform: scale(1.2);
+text-align: center;
+font-size: .26rem;
+text-decoration: none;
+}
+.zc:hover{
+  color: brown;
+}
+.more{
+  font-size: .25rem;
+  color: cornsilk;
+  margin: .2rem .8rem;
+  text-align: center;
+  
+}
+.more:hover{
+  color: rgb(248, 250, 153);
+}
+.allzc{
+  margin-top: 1.9rem;
+  margin-right: .625rem;
+  text-decoration: none;
+  float:right;
+  font-size: 0.35rem;
+  font-family: "黑体";
+  color: black;
+  border-radius: 1rem;
+  transition: all .5s ease;
+  border-bottom-style:solid;
+
+}
+.allzc:hover{
+  transform: scale(1.1);
+  color: brown;
+  border-bottom-style:solid;
+}
+
+.bt {
+  position: relative;
+  top: .20rem;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 1.5rem;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+.bt span {
+  position: relative;
+  left:35%;
+  color: white;
+  font-size: .3rem;
+  font-family: Arial;
+  z-index: 1;
+}
+
+.bt .liquid {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: rgb(91, 152, 170);
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+  transition: .5s;
+}
+
+.bt .liquid::after,
+.bt .liquid::before {
+  content: '';
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: rgb(47, 143, 160);
+}
+
+.bt .liquid::before {
+  
+  border-radius: 45%;
+  background: rgb(21, 91, 109);
+  animation: animate 5s linear infinite;
+}
+
+.bt .liquid::after {
+  
+  border-radius: 40%;
+  background: rgba(20, 20, 20, .5);
+  animation: animate 10s linear infinite;
+}
+
+.bt:hover .liquid{
+  top: -120px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+
+/* 教育平台 */
+.section22{
+  width: 100%;
+  background-image: url(../教育资源图片/发展.jpg);
+  background-position: bottom;
+  background-size: cover;
+  margin-top: 3.6rem;
+  display: flex;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+
+}
+.fz1{
+  position: absolute;
+  text-decoration: none;
+  padding: .2rem .4rem;
+  background: #fc036b;
+  left: 9rem;
+  border-radius: 1.875rem;
+  color: white;
+  font-family: "宋体";
+  font-weight: 600;
+  transition: all .5s ease-in-out;
+}
+.fz1:hover{
+  transform: scale(1.05);
+  border-bottom: .09rem solid white;
+}
+.header-content{
+  margin-bottom:4rem;
+  color: white;
+  text-align: center;
+}
+.line{
+  width: 4rem;
+  height: .15rem;
+  background: rgb(248, 61, 139);
+  margin: 1rem auto;
+  border-radius: .3125rem;
+}
+.header-content h1{
+  font-family:"华文中宋";
+  font-size: 1.2rem;
+  margin-top: 3.125rem;
+  margin-bottom: 1.875rem;
+}
+.fa-angle-double-down{
+position: relative;
+margin: .5rem auto;
+left: 50%;
+color: black;
+transition: all 1s ease;
+}
+.fa-angle-double-down:hover{
+  color: brown;
+}
+
+.section44{
+  
+  width: 100%;
+  background-image: url(../教育资源图片/建设.jpg);
+  background-position: bottom;
+  background-size: cover;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  justify-content: center;
+}
+.section55{
+  width: 100%;
+  background-image: url(../教育资源图片/特殊.jpg);
+  background-position: bottom;
+  background-size: cover;
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  justify-content: center;
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
